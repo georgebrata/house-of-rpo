@@ -792,7 +792,7 @@
         }
         .subtitle {
           font: 400 16px/20px $primary-font;
-          color: $black;
+          color: $color-grey-light-2;
           @media (max-width: 991px) {
             font-size: 14px;
             line-height: 16px;
@@ -1565,7 +1565,7 @@
     a {
       color: $color-primary;
       &:hover {
-        color: $black;
+        color: $color-grey-light-2;
       }
       i {
         vertical-align: middle;
@@ -1650,7 +1650,7 @@ a {
   cursor: pointer;
   &:hover,
   &:focus {
-    color: $black;
+    color: $color-grey-light-2;
   }
 }
 .index {
@@ -1844,11 +1844,11 @@ input[type='radio'] {
 }
 
 a {
-  color: $color-primary;
+  color: $white;
 }
 a {
   &:hover {
-    color: $black;
+    color: $color-grey-light-2;
   }
 }
 

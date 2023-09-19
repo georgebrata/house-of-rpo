@@ -227,8 +227,15 @@
 }
 
 img {
-  max-width: 37%;
+  max-width: 100%;
   height: auto;
+}
+.footer-logo,
+.logo img {
+  max-width: 40% !important ;
+}
+.ttbanner-img img {
+  width: 50%;
 }
 
 body {
@@ -236,7 +243,7 @@ body {
   line-height: 20px;
   font-size: 13px;
   font-family: $primary-font;
-  color: $color-primary;
+  color: $color-grey-light-2;
 }
 @-moz-keyframes fixedmenu {
   0% {
@@ -411,6 +418,7 @@ body {
     @media (max-width: 991px) {
       width: 100%;
       border-top: 1px solid $color-primary;
+      background-color: $color-primary-dark;
       padding: 10px 0;
     }
     > div {
@@ -508,11 +516,11 @@ body {
         position: static;
       }
       .nav-link {
-        color: $color-grey-light-2;
+        color: $color-grey-light-1;
         font: 600 16px/18px $secondary-font;
         padding: 23px 20px !important;
         &:hover {
-          color: $color-text-grey;
+          color: $color-grey-light-2;
         }
         @media (max-width: 991px) {
           padding: 5px 10px !important;
@@ -896,7 +904,7 @@ body {
           width: 15px;
           background: $color-primary-dark;
           line-height: 15px;
-          color: $color-text-grey !important;
+          color: $color-grey-dark-2 !important;
           top: 0;
           bottom: 0;
           margin: auto;
@@ -1596,7 +1604,7 @@ body {
             color: $color-primary;
             cursor: pointer;
             &:hover {
-              color: $color-text-grey;
+              color: $color-grey-light-2;
             }
           }
         }
@@ -2170,11 +2178,11 @@ body {
       -moz-transform: rotateY(180deg);
       -o-transform: rotateY(180deg);
       -ms-transform: rotateY(180deg);
-      color: $color-text-grey;
-      border-color: $color-text-grey;
+      color: $color-grey-light-2;
+      border-color: $color-grey-light-2;
     }
     span {
-      color: $color-text-grey;
+      color: $color-grey-light-2;
     }
   }
 }
@@ -2836,8 +2844,8 @@ body {
       .owl-nav {
         button {
           span {
-            border-color: $color-text-grey;
-            color: $color-text-grey;
+            border-color: $color-grey-light-2;
+            color: $color-grey-light-2;
             &:hover {
               color: $color-grey-light-1;
             }
@@ -3525,6 +3533,7 @@ body {
 .navbar-responsive {
   .navbar-nav {
     padding: 10px 0;
+    background-color: $color-primary-dark;
   }
 }
 
