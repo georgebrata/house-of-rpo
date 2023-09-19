@@ -4782,7 +4782,8 @@ img {
 
 .footer-logo,
 .logo img {
-  max-width: 40% !important; }
+  max-width: 40% !important;
+  margin: 0 auto; }
 
 .ttbanner-img img {
   width: 50%; }
