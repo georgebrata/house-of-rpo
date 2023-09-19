@@ -6016,7 +6016,7 @@ body {
       color: #f6f7f9; }
       @media (max-width: 991px) {
         .header-area.header1 .contact span {
-          color: #2e9cca; } }
+          color: #f6f7f9; } }
     .header-area.header1 .contact i {
       border-color: #f6f7f9;
       color: #f6f7f9; }
@@ -6258,7 +6258,7 @@ body {
 
 .contact span {
   font: 400 14px/22px Poppins, Helvetica, sans-serif;
-  color: #2e9cca; }
+  color: #f6f7f9; }
 
 .contact:hover i {
   transform: rotateY(180deg);

@@ -1850,7 +1850,7 @@ body {
       span {
         color: $color-grey-light-1;
         @media (max-width: 991px) {
-          color: $color-primary;
+          color: $color-grey-light-1;
         }
       }
       i {
@@ -2170,7 +2170,7 @@ body {
   }
   span {
     font: 400 14px/22px $primary-font;
-    color: $color-primary;
+    color: $color-grey-light-1;
   }
   &:hover {
     i {
