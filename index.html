@@ -18,6 +18,10 @@
   <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,700,900" rel="stylesheet" />
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+
   <!-- IMPORTS -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
   <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet" />
@@ -25,6 +29,8 @@
   <link href="css/animate.css" rel="stylesheet" />
   <link href="css/owl-carousel.css" rel="stylesheet" />
   <link href="css/lightbox.css" rel="stylesheet" />
+  <link href="css/custom.css" rel="stylesheet" />
+
 
   <!-- HOTJAR -->
 
@@ -48,195 +54,8 @@
         </div>
       </div>
       <div class="header-main-head">
-        <div class="header-main">
-          <div class="container">
-            <div class="header-left float-left d-flex d-lg-flex d-md-block d-xs-block">
-              <!-- <div class="language-wrapper toggle">
-                  <button
-                    type="button"
-                    class="btn text-capitalize dropdown-toggle"
-                  >
-                    <img
-                      src="img/banner/en.png"
-                      alt="en"
-                      height="12"
-                      width="18"
-                    /><span>English</span>
-                  </button>
-                  <div id="language-dropdown" class="language">
-                    <ul>
-                      <li>
-                        <img
-                          src="img/banner/en.png"
-                          alt="en"
-                          width="18"
-                          height="12"
-                        /><span>English</span>
-                      </li>
-                      <li>
-                        <img
-                          src="img/banner/fr.png"
-                          alt="fr"
-                          width="18"
-                          height="12"
-                        /><span>French</span>
-                      </li>
-                    </ul>
-                  </div>
-                </div> -->
-              <!-- <div class="currency-wrapper toggle">
-                  <button
-                    type="button"
-                    class="btn text-capitalize dropdown-toggle"
-                  >
-                    <span>€ Euro</span>
-                  </button>
-                  <div id="currency-dropdown" class="currency">
-                    <ul>
-                      <li><span>€ Euro</span></li>
-                      <li><span>£ Pound Sterling</span></li>
-                      <li><span>$ US Dollar</span></li>
-                    </ul>
-                  </div>
-                </div> -->
-              <div class="contact">
-                <i class="material-icons">phone</i>
-                <a href="tel:+40771667100">0771 667 100</a>
-              </div>
-            </div>
-            <div class="header-middle float-lg-left float-md-left float-sm-left float-xs-none">
-              <div class="logo">
-                <a href="index.html"><img src="img/img/logo.png" alt="logo" width="200" height="50" /></a>
-              </div>
-            </div>
-            <div class="header-right d-flex d-xs-flex d-sm-flex justify-content-end float-right">
-              <!-- <div class="search-wrapper">
-                  <a>
-                    <i class="material-icons search">search</i>
-                    <i class="material-icons close">close</i>
-                  </a>
-                  <form
-                    autocomplete="off"
-                    action="/action_page.php"
-                    class="search-form"
-                  >
-                    <div class="autocomplete">
-                      <input
-                        id="myInput"
-                        type="text"
-                        name="myCountry"
-                        placeholder="Search here"
-                      />
-                      <button type="button">
-                        <i class="material-icons">search</i>
-                      </button>
-                    </div>
-                  </form>
-                </div> -->
-              <!-- <div class="user-info">
-                  <button type="button" class="btn">
-                    <i class="material-icons">perm_identity</i>
-                  </button>
-                  <div id="user-dropdown" class="user-menu">
-                    <ul>
-                      <li>
-                        <a href="my-account.html" class="text-capitalize"
-                          >my account</a
-                        >
-                      </li>
-                      <li>
-                        <a
-                          href="#"
-                          class="modal-view button"
-                          data-toggle="modal"
-                          data-target="#modalRegisterForm"
-                          >Register</a
-                        >
-                      </li>
-                      <li>
-                        <a
-                          href="#"
-                          class="modal-view button"
-                          data-toggle="modal"
-                          data-target="#modalLoginForm"
-                          >login</a
-                        >
-                      </li>
-                    </ul>
-                  </div>
-                </div> -->
-              <!-- <div class="cart-wrapper">
-                  <button type="button" class="btn">
-                    <i class="material-icons">shopping_cart</i>
-                    <span class="ttcount">2</span>
-                  </button>
-                  <div id="cart-dropdown" class="cart-menu">
-                    <ul class="w-100 float-left">
-                      <li>
-                        <table class="table table-striped">
-                          <tbody>
-                            <tr>
-                              <td class="text-center">
-                                <a href="#"
-                                  ><img
-                                    src="img/products/01.jpg"
-                                    alt="01"
-                                    title="01"
-                                    height="104"
-                                    width="80"
-                                /></a>
-                              </td>
-                              <td class="text-left product-name">
-                                <a href="#">aliquam quaerat voluptatem</a>
-                                <div class="quantity float-left w-100">
-                                  <span class="cart-qty">1 × </span>
-                                  <span class="text-left price"> $20.00</span>
-                                </div>
-                              </td>
-                              <td class="text-center close">
-                                <a class="close-cart"
-                                  ><i class="material-icons">close</i></a
-                                >
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </li>
-                      <li>
-                        <table class="table price mb-30">
-                          <tbody>
-                            <tr>
-                              <td class="text-left"><strong>Total</strong></td>
-                              <td class="text-right">
-                                <strong>$2,122.00</strong>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </li>
-                      <li class="buttons w-100 float-left">
-                        <form action="cart_page.html">
-                          <input
-                            class="btn pull-left mt_10 btn-primary btn-rounded w-100"
-                            value="View cart"
-                            type="submit"
-                          />
-                        </form>
-                        <form action="checkout_page.html">
-                          <input
-                            class="btn pull-right mt_10 btn-primary btn-rounded w-100"
-                            value="Checkout"
-                            type="submit"
-                          />
-                        </form>
-                      </li>
-                    </ul>
-                  </div>
-                </div> -->
-            </div>
-          </div>
-        </div>
         <div class="menu">
+          <img src="./img/img/logo.png" width="80" class="p-1"/>
           <div class="container">
             <!-- Navbar -->
             <nav class="navbar navbar-expand-lg navbar-light d-sm-none d-xs-none d-lg-block navbar-full">
@@ -254,72 +73,13 @@
                 <!-- Links -->
                 <ul class="navbar-nav m-auto justify-content-center">
                   <li class="nav-item">
-                    <a href="/" class="nav-link"> Home </a>
+                    <a href="/" class="nav-link"> Acasă </a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="/desprei">Desprei</a>
-                    <div class="dropdown-menu mega-menu v-2 z-depth-1 special-color py-3 px-3">
-                      <div class="row">
-                        <div class="col-md-12 col-xl-4 sub-menu mb-xl-0 mb-4">
-                          <h6 class="sub-title text-uppercase font-weight-bold white-text">
-                            Variation 1
-                          </h6>
-                          <!--Featured image-->
-                          <ul class="list-unstyled">
-                            <li>
-                              <a class="menu-item pl-0" href="filter-toggle.html">
-                                filter toggle
-                              </a>
-                            </li>
-                            <li>
-                              <a class="menu-item pl-0" href="off-canvas-left.html">
-                                off canvas left
-                              </a>
-                            </li>
-                            <li>
-                              <a class="menu-item pl-0" href="off-canvas-right.html">
-                                off canvas right
-                              </a>
-                            </li>
-                          </ul>
-                        </div>
-                        <div class="col-md-6 col-xl-4 sub-menu mb-md-0 mb-4">
-                          <h6 class="sub-title text-uppercase font-weight-bold white-text">
-                            Variation 2
-                          </h6>
-                          <ul class="list-unstyled">
-                            <li>
-                              <a class="menu-item pl-0" href="category-5-col.html">
-                                5 columns mode
-                              </a>
-                            </li>
-                            <li>
-                              <a class="menu-item pl-0" href="category-6-col.html">
-                                6 columns mode
-                              </a>
-                            </li>
-                            <li>
-                              <a class="menu-item pl-0" href="category-7-col.html">
-                                7 columns mode
-                              </a>
-                            </li>
-                            <li>
-                              <a class="menu-item pl-0" href="category-8-col.html">
-                                8 columns mode
-                              </a>
-                            </li>
-                          </ul>
-                        </div>
-                        <div class="col-md-6 col-xl-4 sub-menu mb-0">
-                          <ul class="list-unstyled">
-                            <li>
-                              <span class="menu-banner"><img src="img/banner/menu-banner.jpg" alt="menu-banner"
-                                  width="161" height="230" /></span>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
+                    <a class="nav-link" href="/despre">Despre</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/contact">Contact</a>
                   </li>
                 </ul>
                 <!-- Links -->
@@ -342,11 +102,14 @@
                 <!-- Links -->
                 <ul class="navbar-nav m-auto justify-content-center">
                   <!-- Features -->
-                  <li class="nav-item active">
-                    <a href="/"> Home </a>
+                  <li class="nav-item">
+                    <a href="/"> Acasă </a>
                   </li>
-                  <li class="nav-item active">
-                    <a href="/desprei"> Desprei </a>
+                  <li class="nav-item">
+                    <a href="/despre"> Despre </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="/contact/"> Contact </a>
                   </li>
                 </ul>
                 <!-- Links -->
@@ -360,105 +123,96 @@
   </header>
   <main>
     <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="slider-wrapper my-40 my-sm-25 float-left w-100">
+    <div class="slider-wrapper float-left w-100">
       <div class="container">
         <div class="ttloading-bg"></div>
         <div class="slider slider-for owl-carousel mb-30">
           <div>
-            <a href="#">
-              <img src="img/slider/sample-01.jpg" alt="" height="800" width="1600" />
-            </a>
+            <img src="img/slider/lether.png" alt="" height="800" width="1600" />
             <div class="slider-content-wrap center effect_top">
               <div class="slider-title mb-20 text-capitalize float-left w-100"></div>
               <div class="slider-subtitle mb-50 text-capitalize float-left w-100">
-                Casa Pielii tale
-              </div>
-              <div class="slider-button text-uppercase float-left w-100">
-                <a href=" #">Shop Now</a>
+                House of RPO
               </div>
             </div>
           </div>
           <div>
-            <a href="#">
-              <img src="img/slider/sample-02.jpg" alt="" height="800" width="1600" />
-            </a>
+            <img src="img/slider/shoes.png" alt="" height="800" width="1600" />
             <div class="slider-content-wrap center effect_bottom">
-              <div class="slider-title mb-20 text-capitalize float-left w-100">
-                HOUSE OF RPO
-              </div>
               <div class="slider-subtitle mb-50 text-capitalize float-left w-100">
-                fashion style
+                Casa Pielii tale
               </div>
-              <div class="slider-button text-uppercase float-left w-100">
-                <a href=" #">Shop Now</a>
+            </div>
+          </div>
+          <div>
+            <img src="img/slider/bag.png" alt="" height="800" width="1600" />
+            <div class="slider-content-wrap center effect_bottom">
+              <div class="slider-subtitle mb-50 text-capitalize float-left w-100">
+                Casa Pielii tale
               </div>
             </div>
           </div>
         </div>
-        <div class="tt-title d-inline-block float-none w-100 text-center">
+        <!-- <div class="tt-title d-inline-block float-none w-100 text-center">
           Reconditionat, vopsit haine, incaltaminte, genti din piele
-        </div>
-        <div class="tt-desc d-inline-block float-none w-100 text-center">
-          Cu mândrie vă prezentăm Recondiționări Piele Oradea, o afacere
-          dedicată din Oradea, România, specializată în furnizarea serviciilor
-          profesionale de vopsire și recondiționare pentru produse din piele
-          naturală sau alternative de înaltă calitate. Ne angajăm să oferim
-          clienților noștri o experiență satisfăcătoare
-        </div>
+        </div> -->
+        <!-- <div class="tt-desc d-inline-block float-none w-100 text-center">
+          În atelierul nostru din Oradea dragostea pentru detalii autentice se întrepătrunde cu pasiunea pentru design modern. 
+        </div> -->
       </div>
     </div>
 
     <div class="main-content">
+      <div id="ttcmssubbanner" class="ttcmssubbanner my-40 my-sm-25 bottom-to-top hb-animate-element">
+        <div class="ttbannerblock container mt-40">
+          <div class="row">
+            <div class="ttbanner1 ttbanner offset-md-2 col-md-8 offset-xs-1 col-xs-10">
+              <div class="ttbanner-inner">
+                <div class="ttbanner-desc text-center">
+                  <span class="title">Jacheta ta de piele și-a pierdut strălucirea de altădată?</span>
+                  <span class="subtitle py-20">Cu experiența noastră îndelungată în industria pielăriei, putem
+                    transforma jacheta ta veche și obosită într-o piesă remarcabilă și modernă.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <div id="ttcmsbanner" class="ttcmsbanner my-40 my-sm-25">
         <div class="ttbannerblock container text-center">
           <div class="row">
             <div class="ttbanner1 mb-30 ttbanner col-sm-6 col-xs-6 left-to-right hb-animate-element">
               <div class="ttbanner-img">
-                <a href="#"><img src="img/banner/cms-01.jpg" alt="cms-01" height="600" width="630" /></a>
+                <a href="#"><img src="img/banner/banner-1.jpg" alt="cms-01" height="600" width="630" /></a>
               </div>
               <div class="ttbanner-inner d-inline-block align-top float-none">
                 <div class="ttbanner-desc float-left w-100">
                   <h2 class="ttbanner-heading text-uppercase float-left w-100">
-                    Jackets
+                    RECONDIȚIONĂRI
                   </h2>
-                  <span class="title text-uppercase float-left w-100 pb-3">collection</span>
-                  <span class="subtitle float-left w-100 py-20">Et harum quidem rerum facilis est et expedita m libero
-                    tempore, cum solut</span>
-                  <span class="shop-now float-left w-100"><a href="#"
-                      class="d-inline-block align-top float-none btn-primary">Shop Now</a></span>
+                  <span class="title text-uppercase float-left w-100 pb-3">piele</span>
+                  <span class="subtitle float-left w-100 py-20">
+                    Specializați în redarea durabilității articolelor din piele.
+                  </span>
+                  <!-- <span class="shop-now float-left w-100">
+                    <a href="/contact" class="d-inline-block align-top float-none btn-primary">contact</a>
+                  </span> -->
                 </div>
               </div>
             </div>
             <div class="ttbanner1 ttbanner col-sm-6 col-xs-6 left-to-right hb-animate-element">
               <div class="ttbanner-img">
-                <a href="#"><img src="img/banner/cms-01.jpg" alt="cms-01" height="600" width="630" /></a>
+                <a href="#"><img src="img/banner/banner-2.jpg" alt="cms-01" height="600" width="630" /></a>
               </div>
               <div class="ttbanner-inner d-inline-block align-top float-none">
                 <div class="ttbanner-desc float-left w-100">
                   <h2 class="ttbanner-heading text-uppercase float-left w-100">
-                    Bags
+                    Vopsit
                   </h2>
-                  <span class="title text-uppercase float-left w-100 pb-3">collection</span>
-                  <span class="subtitle float-left w-100 py-20">Et harum quidem rerum facilis est et expedita m libero
-                    tempore, cum solut</span>
-                  <span class="shop-now float-left w-100"><a href="#"
-                      class="d-inline-block align-top float-none btn-primary">Shop Now</a></span>
-                </div>
-              </div>
-            </div>
-            <div class="ttbanner2 ttbanner col-sm-6 col-xs-6 right-to-left hb-animate-element">
-              <div class="ttbanner-img">
-                <a href="#"><img src="img/banner/cms-02.jpg" alt="cms-02" height="600" width="630" /></a>
-              </div>
-              <div class="ttbanner-inner d-inline-block align-top float-none">
-                <div class="ttbanner-desc">
-                  <h2 class="ttbanner-heading text-uppercase">Shoes</h2>
-                  <span class="title text-uppercase float-left w-100 pb-3">collection</span>
-                  <span class="subtitle float-left w-100 py-20">Indiferent dacă vorbim despre pantofi eleganți, casual
-                    sau sport, suntem aici pentru a le oferi o a doua șansă de
-                    strălucire.</span>
-                  <span class="shop-now float-left w-100"><a href="#"
-                      class="d-inline-block align-top float-none btn-primary">Shop Now</a></span>
+                  <span class="title text-uppercase float-left w-100 pb-3">piele</span>
+                  <span class="subtitle float-left w-100 py-20">
+                    Specializați în redarea frumuseții articolelor din piele.
+                  </span>
                 </div>
               </div>
             </div>
@@ -470,94 +224,48 @@
           <div class="container">
             <div class="row">
               <div class="tt-title d-inline-block float-none w-100 text-center">
-                Reconditionat, vopsit haine, incaltaminte, genti din piele
+                Produse
               </div>
               <div class="tabs">
                 <ul class="nav nav-tabs justify-content-center">
                   <li class="nav-item">
                     <a class="nav-link active" data-toggle="tab" href="#ttfeatured-main" id="featured-tab">
-                      <div class="tab-title">Featured</div>
+                      <div class="tab-title">haine</div>
                     </a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" data-toggle="tab" href="#ttnew-main" id="new-tab">
-                      <div class="tab-title">Latest</div>
+                      <div class="tab-title">genți</div>
                     </a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" data-toggle="tab" href="#ttbestseller-main" id="bestseller-tab">
-                      <div class="tab-title">Bestseller</div>
+                      <div class="tab-title">încălțăminte</div>
                     </a>
                   </li>
                 </ul>
               </div>
               <div class="tab-content float-left w-100">
-                <div class="tab-pane active float-left w-100" id="ttfeatured-main" role="tabpanel"
-                  aria-labelledby="featured-tab">
+                <div class="tab-pane active float-left w-100" id="ttfeatured-main" role="tabpanel" aria-labelledby="featured-tab">
                   <section id="ttfeatured" class="ttfeatured-products">
                     <div class="ttfeatured-content products grid owl-carousel" id="owl1">
                       <div class="product-layouts">
                         <div class="product-thumb">
                           <div class="image zoom">
-                            <a href="product-details.html">
+                            <a>
                               <img src="img/products/01.jpg" alt="01" height="501" width="385" />
-                              <img src="img/products/02.jpg" alt="02" class="second_image img-responsive" height="501"
-                                width="385" />
+                              <img src="img/products/02.jpg" alt="02" class="second_image img-responsive" height="501" width="385" />
                             </a>
-                            <ul class="countdown1 countdown">
-                              <li>
-                                <span class="days">00</span>
-                                <p class="days_text">Days</p>
-                              </li>
-                              <li>
-                                <span class="hours">00</span>
-                                <p class="hours_text">Hours</p>
-                              </li>
-                              <li>
-                                <span class="minutes">00</span>
-                                <p class="minutes_text">Minutes</p>
-                              </li>
-                              <li>
-                                <span class="seconds">00</span>
-                                <p class="seconds_text">Seconds</p>
-                              </li>
-                            </ul>
                           </div>
                           <div class="thumb-description">
                             <div class="caption">
                               <h4 class="product-title text-capitalize">
-                                <a href="product-details.html">Merino Small Dress</a>
+                                <a href="">Merino Small Dress</a>
                               </h4>
                             </div>
-                            <div class="rating">
-                              <div class="product-ratings d-inline-block align-middle">
-                                <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons off">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons off">star</i></span>
-                              </div>
-                            </div>
                             <div class="price">
-                              <div class="regular-price">$100.00</div>
-                              <div class="old-price">$150.00</div>
-                            </div>
-                            <div class="button-wrapper">
-                              <div class="button-group text-center">
-                                <button type="button" class="btn btn-primary btn-cart" data-target="#cart-pop"
-                                  data-toggle="modal" disabled="disabled">
-                                  <i class="material-icons">shopping_cart</i><span>Add to cart</span>
-                                </button>
-                                <a href="wishlist.html" class="btn btn-primary btn-wishlist"><i
-                                    class="material-icons">favorite</i><span>wishlist</span></a>
-                                <button type="button" class="btn btn-primary btn-compare">
-                                  <i class="material-icons">equalizer</i><span>Compare</span>
-                                </button>
-                                <button type="button" class="btn btn-primary btn-quickview" data-toggle="modal"
-                                  data-target="#product_view">
-                                  <i class="material-icons">visibility</i><span>Quick View</span>
-                                </button>
-                              </div>
+                              <div class="regular-price">100RON</div>
+                              <div class="old-price">150RON</div>
                             </div>
                           </div>
                         </div>
@@ -565,69 +273,24 @@
                       <div class="product-layouts">
                         <div class="product-thumb">
                           <div class="image zoom">
-                            <a href="product-details.html">
+                            <a>
                               <img src="img/products/02.jpg" alt="02" height="501" width="385" />
                               <img src="img/products/03.jpg" alt="03" class="second_image img-responsive" height="501"
                                 width="385" />
                             </a>
                             <div class="flags">
-                              <div class="sale">sale</div>
-                              <div class="new">new</div>
+                              <div class="sale">ofertă</div>
                             </div>
-                            <ul class="countdown countdown2">
-                              <li>
-                                <span class="days">00</span>
-                                <p class="days_text">Days</p>
-                              </li>
-                              <li>
-                                <span class="hours">00</span>
-                                <p class="hours_text">Hours</p>
-                              </li>
-                              <li>
-                                <span class="minutes">00</span>
-                                <p class="minutes_text">Minutes</p>
-                              </li>
-                              <li>
-                                <span class="seconds">00</span>
-                                <p class="seconds_text">Seconds</p>
-                              </li>
-                            </ul>
                           </div>
                           <div class="thumb-description">
                             <div class="caption">
                               <h4 class="product-title text-capitalize">
-                                <a href="product-details.html">Tropical Shirt Dress</a>
+                                <a>Tropical Shirt Dress</a>
                               </h4>
                             </div>
-                            <div class="rating">
-                              <div class="product-ratings d-inline-block align-middle">
-                                <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons off">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons off">star</i></span>
-                              </div>
-                            </div>
                             <div class="price">
-                              <div class="regular-price">$100.00</div>
-                              <div class="old-price">$150.00</div>
-                            </div>
-                            <div class="button-wrapper">
-                              <div class="button-group text-center">
-                                <button type="button" class="btn btn-primary btn-cart" data-target="#cart-pop"
-                                  data-toggle="modal">
-                                  <i class="material-icons">shopping_cart</i><span>Add to cart</span>
-                                </button>
-                                <a href="wishlist.html" class="btn btn-primary btn-wishlist"><i
-                                    class="material-icons">favorite</i><span>wishlist</span></a>
-                                <button type="button" class="btn btn-primary btn-compare">
-                                  <i class="material-icons">equalizer</i><span>Compare</span>
-                                </button>
-                                <button type="button" class="btn btn-primary btn-quickview" data-toggle="modal"
-                                  data-target="#product_view">
-                                  <i class="material-icons">visibility</i><span>Quick View</span>
-                                </button>
-                              </div>
+                              <div class="regular-price">200RON</div>
+                              <div class="old-price">300RON</div>
                             </div>
                           </div>
                         </div>
@@ -635,7 +298,7 @@
                       <div class="product-layouts">
                         <div class="product-thumb">
                           <div class="image zoom">
-                            <a href="product-details.html">
+                            <a>
                               <img src="img/products/03.jpg" alt="03" height="501" width="385" />
                               <img src="img/products/04.jpg" alt="04" class="second_image img-responsive" height="501"
                                 width="385" /></a>
@@ -643,38 +306,12 @@
                           <div class="thumb-description">
                             <div class="caption">
                               <h4 class="product-title text-capitalize">
-                                <a href="product-details.html">Shoulder Embroidered Bodysuit</a>
+                                <a>Shoulder Embroidered Bodysuit</a>
                               </h4>
                             </div>
-                            <div class="rating">
-                              <div class="product-ratings d-inline-block align-middle">
-                                <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons off">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons off">star</i></span>
-                              </div>
-                            </div>
                             <div class="price">
-                              <div class="regular-price">$100.00</div>
-                              <div class="old-price">$150.00</div>
-                            </div>
-                            <div class="button-wrapper">
-                              <div class="button-group text-center">
-                                <button type="button" class="btn btn-primary btn-cart" data-target="#cart-pop"
-                                  data-toggle="modal">
-                                  <i class="material-icons">shopping_cart</i><span>Add to cart</span>
-                                </button>
-                                <a href="wishlist.html" class="btn btn-primary btn-wishlist"><i
-                                    class="material-icons">favorite</i><span>wishlist</span></a>
-                                <button type="button" class="btn btn-primary btn-compare">
-                                  <i class="material-icons">equalizer</i><span>Compare</span>
-                                </button>
-                                <button type="button" class="btn btn-primary btn-quickview" data-toggle="modal"
-                                  data-target="#product_view">
-                                  <i class="material-icons">visibility</i><span>Quick View</span>
-                                </button>
-                              </div>
+                              <div class="regular-price">100RON</div>
+                              <div class="old-price">150RON</div>
                             </div>
                           </div>
                         </div>
@@ -682,7 +319,7 @@
                       <div class="product-layouts">
                         <div class="product-thumb">
                           <div class="image zoom">
-                            <a href="product-details.html">
+                            <a>
                               <img src="img/products/04.jpg" alt="04" height="501" width="385" />
                               <img src="img/products/05.jpg" alt="05" class="second_image img-responsive" height="501"
                                 width="385" />
@@ -691,38 +328,12 @@
                           <div class="thumb-description">
                             <div class="caption">
                               <h4 class="product-title text-capitalize">
-                                <a href="product-details.html">Checked Polo Collar T-shirt</a>
+                                <a>Checked Polo Collar T-shirt</a>
                               </h4>
                             </div>
-                            <div class="rating">
-                              <div class="product-ratings d-inline-block align-middle">
-                                <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons off">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons off">star</i></span>
-                              </div>
-                            </div>
                             <div class="price">
-                              <div class="regular-price">$100.00</div>
-                              <div class="old-price">$150.00</div>
-                            </div>
-                            <div class="button-wrapper">
-                              <div class="button-group text-center">
-                                <button type="button" class="btn btn-primary btn-cart" data-target="#cart-pop"
-                                  data-toggle="modal">
-                                  <i class="material-icons">shopping_cart</i><span>Add to cart</span>
-                                </button>
-                                <a href="wishlist.html" class="btn btn-primary btn-wishlist"><i
-                                    class="material-icons">favorite</i><span>wishlist</span></a>
-                                <button type="button" class="btn btn-primary btn-compare">
-                                  <i class="material-icons">equalizer</i><span>Compare</span>
-                                </button>
-                                <button type="button" class="btn btn-primary btn-quickview" data-toggle="modal"
-                                  data-target="#product_view">
-                                  <i class="material-icons">visibility</i><span>Quick View</span>
-                                </button>
-                              </div>
+                              <div class="regular-price">100RON</div>
+                              <div class="old-price">150RON</div>
                             </div>
                           </div>
                         </div>
@@ -730,7 +341,7 @@
                       <div class="product-layouts">
                         <div class="product-thumb">
                           <div class="image zoom">
-                            <a href="product-details.html">
+                            <a>
                               <img src="img/products/05.jpg" alt="05" height="501" width="385" />
                               <img src="img/products/06.jpg" alt="06" class="second_image img-responsive" height="501"
                                 width="385" /></a>
@@ -738,38 +349,12 @@
                           <div class="thumb-description">
                             <div class="caption">
                               <h4 class="product-title text-capitalize">
-                                <a href="product-details.html">Crochet Detail Lightweight Top</a>
+                                <a>Crochet Detail Lightweight Top</a>
                               </h4>
                             </div>
-                            <div class="rating">
-                              <div class="product-ratings d-inline-block align-middle">
-                                <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons off">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons off">star</i></span>
-                              </div>
-                            </div>
                             <div class="price">
-                              <div class="regular-price">$100.00</div>
-                              <div class="old-price">$150.00</div>
-                            </div>
-                            <div class="button-wrapper">
-                              <div class="button-group text-center">
-                                <button type="button" class="btn btn-primary btn-cart" data-target="#cart-pop"
-                                  data-toggle="modal">
-                                  <i class="material-icons">shopping_cart</i><span>Add to cart</span>
-                                </button>
-                                <a href="wishlist.html" class="btn btn-primary btn-wishlist"><i
-                                    class="material-icons">favorite</i><span>wishlist</span></a>
-                                <button type="button" class="btn btn-primary btn-compare">
-                                  <i class="material-icons">equalizer</i><span>Compare</span>
-                                </button>
-                                <button type="button" class="btn btn-primary btn-quickview" data-toggle="modal"
-                                  data-target="#product_view">
-                                  <i class="material-icons">visibility</i><span>Quick View</span>
-                                </button>
-                              </div>
+                              <div class="regular-price">100RON</div>
+                              <div class="old-price">150RON</div>
                             </div>
                           </div>
                         </div>
@@ -777,7 +362,7 @@
                       <div class="product-layouts">
                         <div class="product-thumb">
                           <div class="image zoom">
-                            <a href="product-details.html">
+                            <a>
                               <img src="img/products/06.jpg" alt="06" height="501" width="385" />
                               <img src="img/products/07.jpg" alt="07" class="second_image img-responsive" height="501"
                                 width="385" />
@@ -786,38 +371,12 @@
                           <div class="thumb-description">
                             <div class="caption">
                               <h4 class="product-title text-capitalize">
-                                <a href="product-details.html">Girls Floral Print Jumpsuit</a>
+                                <a>Girls Floral Print Jumpsuit</a>
                               </h4>
                             </div>
-                            <div class="rating">
-                              <div class="product-ratings d-inline-block align-middle">
-                                <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons off">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons off">star</i></span>
-                              </div>
-                            </div>
                             <div class="price">
-                              <div class="regular-price">$100.00</div>
-                              <div class="old-price">$150.00</div>
-                            </div>
-                            <div class="button-wrapper">
-                              <div class="button-group text-center">
-                                <button type="button" class="btn btn-primary btn-cart" data-target="#cart-pop"
-                                  data-toggle="modal">
-                                  <i class="material-icons">shopping_cart</i><span>Add to cart</span>
-                                </button>
-                                <a href="wishlist.html" class="btn btn-primary btn-wishlist"><i
-                                    class="material-icons">favorite</i><span>wishlist</span></a>
-                                <button type="button" class="btn btn-primary btn-compare">
-                                  <i class="material-icons">equalizer</i><span>Compare</span>
-                                </button>
-                                <button type="button" class="btn btn-primary btn-quickview" data-toggle="modal"
-                                  data-target="#product_view">
-                                  <i class="material-icons">visibility</i><span>Quick View</span>
-                                </button>
-                              </div>
+                              <div class="regular-price">100RON</div>
+                              <div class="old-price">150RON</div>
                             </div>
                           </div>
                         </div>
@@ -825,7 +384,7 @@
                       <div class="product-layouts">
                         <div class="product-thumb">
                           <div class="image zoom">
-                            <a href="product-details.html">
+                            <a>
                               <img src="img/products/07.jpg" alt="07" height="501" width="385" />
                               <img src="img/products/08.jpg" alt="08" class="second_image img-responsive" height="501"
                                 width="385" />
@@ -834,21 +393,12 @@
                           <div class="thumb-description">
                             <div class="caption">
                               <h4 class="product-title text-capitalize">
-                                <a href="product-details.html">Girls Striped Fit and Flare Dress</a>
+                                <a>Girls Striped Fit and Flare Dress</a>
                               </h4>
                             </div>
-                            <div class="rating">
-                              <div class="product-ratings d-inline-block align-middle">
-                                <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons off">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons off">star</i></span>
-                              </div>
-                            </div>
                             <div class="price">
-                              <div class="regular-price">$100.00</div>
-                              <div class="old-price">$150.00</div>
+                              <div class="regular-price">100RON</div>
+                              <div class="old-price">150RON</div>
                             </div>
                             <div class="button-wrapper">
                               <div class="button-group text-center">
@@ -873,7 +423,7 @@
                       <div class="product-layouts">
                         <div class="product-thumb">
                           <div class="image zoom">
-                            <a href="product-details.html">
+                            <a>
                               <img src="img/products/08.jpg" alt="03" height="501" width="385" />
                               <img src="img/products/09.jpg" alt="09" class="second_image img-responsive" height="501"
                                 width="385" /></a>
@@ -881,38 +431,12 @@
                           <div class="thumb-description">
                             <div class="caption">
                               <h4 class="product-title text-capitalize">
-                                <a href="product-details.html">Juventus Henley Neck Jersey</a>
+                                <a>Juventus Henley Neck Jersey</a>
                               </h4>
                             </div>
-                            <div class="rating">
-                              <div class="product-ratings d-inline-block align-middle">
-                                <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons off">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons off">star</i></span>
-                              </div>
-                            </div>
                             <div class="price">
-                              <div class="regular-price">$100.00</div>
-                              <div class="old-price">$150.00</div>
-                            </div>
-                            <div class="button-wrapper">
-                              <div class="button-group text-center">
-                                <button type="button" class="btn btn-primary btn-cart" data-target="#cart-pop"
-                                  data-toggle="modal">
-                                  <i class="material-icons">shopping_cart</i><span>Add to cart</span>
-                                </button>
-                                <a href="wishlist.html" class="btn btn-primary btn-wishlist"><i
-                                    class="material-icons">favorite</i><span>wishlist</span></a>
-                                <button type="button" class="btn btn-primary btn-compare">
-                                  <i class="material-icons">equalizer</i><span>Compare</span>
-                                </button>
-                                <button type="button" class="btn btn-primary btn-quickview" data-toggle="modal"
-                                  data-target="#product_view">
-                                  <i class="material-icons">visibility</i><span>Quick View</span>
-                                </button>
-                              </div>
+                              <div class="regular-price">100RON</div>
+                              <div class="old-price">150RON</div>
                             </div>
                           </div>
                         </div>
@@ -926,121 +450,7 @@
                       <div class="product-layouts">
                         <div class="product-thumb">
                           <div class="image zoom">
-                            <a href="product-details.html">
-                              <img src="img/products/01.jpg" alt="01" height="501" width="385" />
-                              <img src="img/products/02.jpg" alt="02" class="second_image img-responsive" height="501"
-                                width="385" />
-                            </a>
-                            <ul class="countdown1 countdown">
-                              <li>
-                                <span class="days">00</span>
-                                <p class="days_text">Days</p>
-                              </li>
-                              <li>
-                                <span class="hours">00</span>
-                                <p class="hours_text">Hours</p>
-                              </li>
-                              <li>
-                                <span class="minutes">00</span>
-                                <p class="minutes_text">Minutes</p>
-                              </li>
-                              <li>
-                                <span class="seconds">00</span>
-                                <p class="seconds_text">Seconds</p>
-                              </li>
-                            </ul>
-                          </div>
-                          <div class="thumb-description">
-                            <div class="caption">
-                              <h4 class="product-title text-capitalize">
-                                <a href="product-details.html">Printed Dugaree with T-Shirt</a>
-                              </h4>
-                            </div>
-                            <div class="rating">
-                              <div class="product-ratings d-inline-block align-middle">
-                                <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons off">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons off">star</i></span>
-                              </div>
-                            </div>
-                            <div class="price">
-                              <div class="regular-price">$100.00</div>
-                              <div class="old-price">$150.00</div>
-                            </div>
-                            <div class="button-wrapper">
-                              <div class="button-group text-center">
-                                <button type="button" class="btn btn-primary btn-cart" data-target="#cart-pop"
-                                  data-toggle="modal" disabled="disabled">
-                                  <i class="material-icons">shopping_cart</i><span>Add to cart</span>
-                                </button>
-                                <a href="wishlist.html" class="btn btn-primary btn-wishlist"><i
-                                    class="material-icons">favorite</i><span>wishlist</span></a>
-                                <button type="button" class="btn btn-primary btn-compare">
-                                  <i class="material-icons">equalizer</i><span>Compare</span>
-                                </button>
-                                <button type="button" class="btn btn-primary btn-quickview" data-toggle="modal"
-                                  data-target="#product_view">
-                                  <i class="material-icons">visibility</i><span>Quick View</span>
-                                </button>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="product-layouts">
-                        <div class="product-thumb">
-                          <div class="image zoom">
-                            <a href="product-details.html">
-                              <img src="img/products/02.jpg" alt="02" height="501" width="385" />
-                              <img src="img/products/03.jpg" alt="03" class="second_image img-responsive" height="501"
-                                width="385" />
-                            </a>
-                          </div>
-                          <div class="thumb-description">
-                            <div class="caption">
-                              <h4 class="product-title text-capitalize">
-                                <a href="product-details.html">Printed Polo Collar T-shirt</a>
-                              </h4>
-                            </div>
-                            <div class="rating">
-                              <div class="product-ratings d-inline-block align-middle">
-                                <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons off">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons off">star</i></span>
-                              </div>
-                            </div>
-                            <div class="price">
-                              <div class="regular-price">$100.00</div>
-                              <div class="old-price">$150.00</div>
-                            </div>
-                            <div class="button-wrapper">
-                              <div class="button-group text-center">
-                                <button type="button" class="btn btn-primary btn-cart" data-target="#cart-pop"
-                                  data-toggle="modal">
-                                  <i class="material-icons">shopping_cart</i><span>Add to cart</span>
-                                </button>
-                                <a href="wishlist.html" class="btn btn-primary btn-wishlist"><i
-                                    class="material-icons">favorite</i><span>wishlist</span></a>
-                                <button type="button" class="btn btn-primary btn-compare">
-                                  <i class="material-icons">equalizer</i><span>Compare</span>
-                                </button>
-                                <button type="button" class="btn btn-primary btn-quickview" data-toggle="modal"
-                                  data-target="#product_view">
-                                  <i class="material-icons">visibility</i><span>Quick View</span>
-                                </button>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="product-layouts">
-                        <div class="product-thumb">
-                          <div class="image zoom">
-                            <a href="product-details.html">
+                            <a>
                               <img src="img/products/03.jpg" alt="03" height="501" width="385" />
                               <img src="img/products/04.jpg" alt="04" class="second_image img-responsive" height="501"
                                 width="385" />
@@ -1049,38 +459,12 @@
                           <div class="thumb-description">
                             <div class="caption">
                               <h4 class="product-title text-capitalize">
-                                <a href="product-details.html">Burgundy Small Dresss</a>
+                                <a>Burgundy Small Dresss</a>
                               </h4>
                             </div>
-                            <div class="rating">
-                              <div class="product-ratings d-inline-block align-middle">
-                                <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons off">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons off">star</i></span>
-                              </div>
-                            </div>
                             <div class="price">
-                              <div class="regular-price">$100.00</div>
-                              <div class="old-price">$150.00</div>
-                            </div>
-                            <div class="button-wrapper">
-                              <div class="button-group text-center">
-                                <button type="button" class="btn btn-primary btn-cart" data-target="#cart-pop"
-                                  data-toggle="modal">
-                                  <i class="material-icons">shopping_cart</i><span>Add to cart</span>
-                                </button>
-                                <a href="wishlist.html" class="btn btn-primary btn-wishlist"><i
-                                    class="material-icons">favorite</i><span>wishlist</span></a>
-                                <button type="button" class="btn btn-primary btn-compare">
-                                  <i class="material-icons">equalizer</i><span>Compare</span>
-                                </button>
-                                <button type="button" class="btn btn-primary btn-quickview" data-toggle="modal"
-                                  data-target="#product_view">
-                                  <i class="material-icons">visibility</i><span>Quick View</span>
-                                </button>
-                              </div>
+                              <div class="regular-price">100RON</div>
+                              <div class="old-price">150RON</div>
                             </div>
                           </div>
                         </div>
@@ -1088,7 +472,7 @@
                       <div class="product-layouts">
                         <div class="product-thumb">
                           <div class="image zoom">
-                            <a href="product-details.html">
+                            <a>
                               <img src="img/products/04.jpg" alt="04" height="501" width="385" />
                               <img src="img/products/05.jpg" alt="05" class="second_image img-responsive" height="501"
                                 width="385" /></a>
@@ -1096,38 +480,12 @@
                           <div class="thumb-description">
                             <div class="caption">
                               <h4 class="product-title text-capitalize">
-                                <a href="product-details.html">Merino Small Dress</a>
+                                <a>Merino Small Dress</a>
                               </h4>
                             </div>
-                            <div class="rating">
-                              <div class="product-ratings d-inline-block align-middle">
-                                <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons off">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons off">star</i></span>
-                              </div>
-                            </div>
                             <div class="price">
-                              <div class="regular-price">$100.00</div>
-                              <div class="old-price">$150.00</div>
-                            </div>
-                            <div class="button-wrapper">
-                              <div class="button-group text-center">
-                                <button type="button" class="btn btn-primary btn-cart" data-target="#cart-pop"
-                                  data-toggle="modal">
-                                  <i class="material-icons">shopping_cart</i><span>Add to cart</span>
-                                </button>
-                                <a href="wishlist.html" class="btn btn-primary btn-wishlist"><i
-                                    class="material-icons">favorite</i><span>wishlist</span></a>
-                                <button type="button" class="btn btn-primary btn-compare">
-                                  <i class="material-icons">equalizer</i><span>Compare</span>
-                                </button>
-                                <button type="button" class="btn btn-primary btn-quickview" data-toggle="modal"
-                                  data-target="#product_view">
-                                  <i class="material-icons">visibility</i><span>Quick View</span>
-                                </button>
-                              </div>
+                              <div class="regular-price">100RON</div>
+                              <div class="old-price">150RON</div>
                             </div>
                           </div>
                         </div>
@@ -1135,7 +493,7 @@
                       <div class="product-layouts">
                         <div class="product-thumb">
                           <div class="image zoom">
-                            <a href="product-details.html">
+                            <a>
                               <img src="img/products/05.jpg" alt="05" height="501" width="385" />
                               <img src="img/products/06.jpg" alt="06" class="second_image img-responsive" height="501"
                                 width="385" /></a>
@@ -1143,38 +501,12 @@
                           <div class="thumb-description">
                             <div class="caption">
                               <h4 class="product-title text-capitalize">
-                                <a href="product-details.html">Arkun Bordeaux Blouse</a>
+                                <a>Arkun Bordeaux Blouse</a>
                               </h4>
                             </div>
-                            <div class="rating">
-                              <div class="product-ratings d-inline-block align-middle">
-                                <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons off">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons off">star</i></span>
-                              </div>
-                            </div>
                             <div class="price">
-                              <div class="regular-price">$100.00</div>
-                              <div class="old-price">$150.00</div>
-                            </div>
-                            <div class="button-wrapper">
-                              <div class="button-group text-center">
-                                <button type="button" class="btn btn-primary btn-cart" data-target="#cart-pop"
-                                  data-toggle="modal">
-                                  <i class="material-icons">shopping_cart</i><span>Add to cart</span>
-                                </button>
-                                <a href="wishlist.html" class="btn btn-primary btn-wishlist"><i
-                                    class="material-icons">favorite</i><span>wishlist</span></a>
-                                <button type="button" class="btn btn-primary btn-compare">
-                                  <i class="material-icons">equalizer</i><span>Compare</span>
-                                </button>
-                                <button type="button" class="btn btn-primary btn-quickview" data-toggle="modal"
-                                  data-target="#product_view">
-                                  <i class="material-icons">visibility</i><span>Quick View</span>
-                                </button>
-                              </div>
+                              <div class="regular-price">100RON</div>
+                              <div class="old-price">150RON</div>
                             </div>
                           </div>
                         </div>
@@ -1182,7 +514,7 @@
                       <div class="product-layouts">
                         <div class="product-thumb">
                           <div class="image zoom">
-                            <a href="product-details.html">
+                            <a>
                               <img src="img/products/06.jpg" alt="06" height="501" width="385" />
                               <img src="img/products/07.jpg" alt="07" class="second_image img-responsive" height="501"
                                 width="385" /></a>
@@ -1190,38 +522,12 @@
                           <div class="thumb-description">
                             <div class="caption">
                               <h4 class="product-title text-capitalize">
-                                <a href="product-details.html">Medium Denim Overshirt</a>
+                                <a>Medium Denim Overshirt</a>
                               </h4>
                             </div>
-                            <div class="rating">
-                              <div class="product-ratings d-inline-block align-middle">
-                                <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons off">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons off">star</i></span>
-                              </div>
-                            </div>
                             <div class="price">
-                              <div class="regular-price">$100.00</div>
-                              <div class="old-price">$150.00</div>
-                            </div>
-                            <div class="button-wrapper">
-                              <div class="button-group text-center">
-                                <button type="button" class="btn btn-primary btn-cart" data-target="#cart-pop"
-                                  data-toggle="modal">
-                                  <i class="material-icons">shopping_cart</i><span>Add to cart</span>
-                                </button>
-                                <a href="wishlist.html" class="btn btn-primary btn-wishlist"><i
-                                    class="material-icons">favorite</i><span>wishlist</span></a>
-                                <button type="button" class="btn btn-primary btn-compare">
-                                  <i class="material-icons">equalizer</i><span>Compare</span>
-                                </button>
-                                <button type="button" class="btn btn-primary btn-quickview" data-toggle="modal"
-                                  data-target="#product_view">
-                                  <i class="material-icons">visibility</i><span>Quick View</span>
-                                </button>
-                              </div>
+                              <div class="regular-price">100RON</div>
+                              <div class="old-price">150RON</div>
                             </div>
                           </div>
                         </div>
@@ -1229,7 +535,7 @@
                       <div class="product-layouts">
                         <div class="product-thumb">
                           <div class="image zoom">
-                            <a href="product-details.html">
+                            <a>
                               <img src="img/products/07.jpg" alt="03" height="501" width="385" />
                               <img src="img/products/08.jpg" alt="08" class="second_image img-responsive" height="501"
                                 width="385" /></a>
@@ -1240,35 +546,9 @@
                                 <a href="#">Long Sleeves Cotton Polo</a>
                               </h4>
                             </div>
-                            <div class="rating">
-                              <div class="product-ratings d-inline-block align-middle">
-                                <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons off">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons off">star</i></span>
-                              </div>
-                            </div>
                             <div class="price">
-                              <div class="regular-price">$100.00</div>
-                              <div class="old-price">$150.00</div>
-                            </div>
-                            <div class="button-wrapper">
-                              <div class="button-group text-center">
-                                <button type="button" class="btn btn-primary btn-cart" data-target="#cart-pop"
-                                  data-toggle="modal" disabled="disabled">
-                                  <i class="material-icons">shopping_cart</i><span>Add to cart</span>
-                                </button>
-                                <a href="wishlist.html" class="btn btn-primary btn-wishlist"><i
-                                    class="material-icons">favorite</i><span>wishlist</span></a>
-                                <button type="button" class="btn btn-primary btn-compare">
-                                  <i class="material-icons">equalizer</i><span>Compare</span>
-                                </button>
-                                <button type="button" class="btn btn-primary btn-quickview" data-toggle="modal"
-                                  data-target="#product_view">
-                                  <i class="material-icons">visibility</i><span>Quick View</span>
-                                </button>
-                              </div>
+                              <div class="regular-price">100RON</div>
+                              <div class="old-price">150RON</div>
                             </div>
                           </div>
                         </div>
@@ -1276,7 +556,7 @@
                       <div class="product-layouts">
                         <div class="product-thumb">
                           <div class="image zoom">
-                            <a href="product-details.html">
+                            <a>
                               <img src="img/products/08.jpg" alt="08" height="501" width="385" />
                               <img src="img/products/09.jpg" alt="09" class="second_image img-responsive" height="501"
                                 width="385" /></a>
@@ -1284,38 +564,12 @@
                           <div class="thumb-description">
                             <div class="caption">
                               <h4 class="product-title text-capitalize">
-                                <a href="product-details.html">Long Sleeves Cotton Polo</a>
+                                <a>Long Sleeves Cotton Polo</a>
                               </h4>
                             </div>
-                            <div class="rating">
-                              <div class="product-ratings d-inline-block align-middle">
-                                <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons off">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons off">star</i></span>
-                              </div>
-                            </div>
                             <div class="price">
-                              <div class="regular-price">$100.00</div>
-                              <div class="old-price">$150.00</div>
-                            </div>
-                            <div class="button-wrapper">
-                              <div class="button-group text-center">
-                                <button type="button" class="btn btn-primary btn-cart" data-target="#cart-pop"
-                                  data-toggle="modal">
-                                  <i class="material-icons">shopping_cart</i><span>Add to cart</span>
-                                </button>
-                                <a href="wishlist.html" class="btn btn-primary btn-wishlist"><i
-                                    class="material-icons">favorite</i><span>wishlist</span></a>
-                                <button type="button" class="btn btn-primary btn-compare">
-                                  <i class="material-icons">equalizer</i><span>Compare</span>
-                                </button>
-                                <button type="button" class="btn btn-primary btn-quickview" data-toggle="modal"
-                                  data-target="#product_view">
-                                  <i class="material-icons">visibility</i><span>Quick View</span>
-                                </button>
-                              </div>
+                              <div class="regular-price">100RON</div>
+                              <div class="old-price">150RON</div>
                             </div>
                           </div>
                         </div>
@@ -1330,74 +584,7 @@
                       <div class="product-layouts">
                         <div class="product-thumb">
                           <div class="image zoom">
-                            <a href="product-details.html">
-                              <img src="img/products/01.jpg" alt="01" height="501" width="385" />
-                              <img src="img/products/02.jpg" alt="02" class="second_image img-responsive" height="501"
-                                width="385" />
-                            </a>
-                            <ul class="countdown1 countdown">
-                              <li>
-                                <span class="days">00</span>
-                                <p class="days_text">Days</p>
-                              </li>
-                              <li>
-                                <span class="hours">00</span>
-                                <p class="hours_text">Hours</p>
-                              </li>
-                              <li>
-                                <span class="minutes">00</span>
-                                <p class="minutes_text">Minutes</p>
-                              </li>
-                              <li>
-                                <span class="seconds">00</span>
-                                <p class="seconds_text">Seconds</p>
-                              </li>
-                            </ul>
-                          </div>
-                          <div class="thumb-description">
-                            <div class="caption">
-                              <h4 class="product-title text-capitalize">
-                                <a href="product-details.html">Slim-fit Leaf-Print Linen Shirt</a>
-                              </h4>
-                            </div>
-
-                            <div class="rating">
-                              <div class="product-ratings d-inline-block align-middle">
-                                <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons off">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons off">star</i></span>
-                              </div>
-                            </div>
-                            <div class="price">
-                              <div class="regular-price">$100.00</div>
-                              <div class="old-price">$150.00</div>
-                            </div>
-                            <div class="button-wrapper">
-                              <div class="button-group text-center">
-                                <button type="button" class="btn btn-primary btn-cart" data-toggle="modal"
-                                  data-target="#product_view" disabled="disabled">
-                                  <i class="material-icons">shopping_cart</i><span>Add to cart</span>
-                                </button>
-                                <a href="wishlist.html" class="btn btn-primary btn-wishlist"><i
-                                    class="material-icons">favorite</i><span>wishlist</span></a>
-                                <button type="button" class="btn btn-primary btn-compare">
-                                  <i class="material-icons">equalizer</i><span>Compare</span>
-                                </button>
-                                <button type="button" class="btn btn-primary btn-quickview" data-toggle="modal"
-                                  data-target="#product_view">
-                                  <i class="material-icons">visibility</i><span>Quick View</span>
-                                </button>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="product-layouts">
-                        <div class="product-thumb">
-                          <div class="image zoom">
-                            <a href="product-details.html">
+                            <a>
                               <img src="img/products/02.jpg" alt="02" height="501" width="385" />
                               <img src="img/products/03.jpg" alt="03" class="second_image img-responsive" height="501"
                                 width="385" /></a>
@@ -1405,38 +592,12 @@
                           <div class="thumb-description">
                             <div class="caption">
                               <h4 class="product-title text-capitalize">
-                                <a href="product-details.html">Women Floral Print Lounge T-Shirt</a>
+                                <a>Women Floral Print Lounge T-Shirt</a>
                               </h4>
                             </div>
-                            <div class="rating">
-                              <div class="product-ratings d-inline-block align-middle">
-                                <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons off">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons off">star</i></span>
-                              </div>
-                            </div>
                             <div class="price">
-                              <div class="regular-price">$100.00</div>
-                              <div class="old-price">$150.00</div>
-                            </div>
-                            <div class="button-wrapper">
-                              <div class="button-group text-center">
-                                <button type="button" class="btn btn-primary btn-cart" data-target="#cart-pop"
-                                  data-toggle="modal">
-                                  <i class="material-icons">shopping_cart</i><span>Add to cart</span>
-                                </button>
-                                <a href="wishlist.html" class="btn btn-primary btn-wishlist"><i
-                                    class="material-icons">favorite</i><span>wishlist</span></a>
-                                <button type="button" class="btn btn-primary btn-compare">
-                                  <i class="material-icons">equalizer</i><span>Compare</span>
-                                </button>
-                                <button type="button" class="btn btn-primary btn-quickview" data-toggle="modal"
-                                  data-target="#product_view">
-                                  <i class="material-icons">visibility</i><span>Quick View</span>
-                                </button>
-                              </div>
+                              <div class="regular-price">100RON</div>
+                              <div class="old-price">150RON</div>
                             </div>
                           </div>
                         </div>
@@ -1444,7 +605,7 @@
                       <div class="product-layouts">
                         <div class="product-thumb">
                           <div class="image zoom">
-                            <a href="product-details.html">
+                            <a>
                               <img src="img/products/03.jpg" alt="03" height="501" width="385" />
                               <img src="img/products/04.jpg" alt="04" class="second_image img-responsive" height="501"
                                 width="385" /></a>
@@ -1452,38 +613,12 @@
                           <div class="thumb-description">
                             <div class="caption">
                               <h4 class="product-title text-capitalize">
-                                <a href="product-details.html">Women Striped Shirt Dress</a>
+                                <a>Women Striped Shirt Dress</a>
                               </h4>
                             </div>
-                            <div class="rating">
-                              <div class="product-ratings d-inline-block align-middle">
-                                <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons off">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons off">star</i></span>
-                              </div>
-                            </div>
                             <div class="price">
-                              <div class="regular-price">$100.00</div>
-                              <div class="old-price">$150.00</div>
-                            </div>
-                            <div class="button-wrapper">
-                              <div class="button-group text-center">
-                                <button type="button" class="btn btn-primary btn-cart" data-target="#cart-pop"
-                                  data-toggle="modal">
-                                  <i class="material-icons">shopping_cart</i><span>Add to cart</span>
-                                </button>
-                                <a href="wishlist.html" class="btn btn-primary btn-wishlist"><i
-                                    class="material-icons">favorite</i><span>wishlist</span></a>
-                                <button type="button" class="btn btn-primary btn-compare">
-                                  <i class="material-icons">equalizer</i><span>Compare</span>
-                                </button>
-                                <button type="button" class="btn btn-primary btn-quickview" data-toggle="modal"
-                                  data-target="#product_view">
-                                  <i class="material-icons">visibility</i><span>Quick View</span>
-                                </button>
-                              </div>
+                              <div class="regular-price">100RON</div>
+                              <div class="old-price">150RON</div>
                             </div>
                           </div>
                         </div>
@@ -1491,7 +626,7 @@
                       <div class="product-layouts">
                         <div class="product-thumb">
                           <div class="image zoom">
-                            <a href="product-details.html">
+                            <a>
                               <img src="img/products/04.jpg" alt="03" height="501" width="385" />
                               <img src="img/products/05.jpg" alt="05" class="second_image img-responsive" height="501"
                                 width="385" /></a>
@@ -1499,38 +634,12 @@
                           <div class="thumb-description">
                             <div class="caption">
                               <h4 class="product-title text-capitalize">
-                                <a href="product-details.html">Women Solid Bodycon Dress</a>
+                                <a>Women Solid Bodycon Dress</a>
                               </h4>
                             </div>
-                            <div class="rating">
-                              <div class="product-ratings d-inline-block align-middle">
-                                <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons off">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons off">star</i></span>
-                              </div>
-                            </div>
                             <div class="price">
-                              <div class="regular-price">$100.00</div>
-                              <div class="old-price">$150.00</div>
-                            </div>
-                            <div class="button-wrapper">
-                              <div class="button-group text-center">
-                                <button type="button" class="btn btn-primary btn-cart" data-target="#cart-pop"
-                                  data-toggle="modal">
-                                  <i class="material-icons">shopping_cart</i><span>Add to cart</span>
-                                </button>
-                                <a href="wishlist.html" class="btn btn-primary btn-wishlist"><i
-                                    class="material-icons">favorite</i><span>wishlist</span></a>
-                                <button type="button" class="btn btn-primary btn-compare">
-                                  <i class="material-icons">equalizer</i><span>Compare</span>
-                                </button>
-                                <button type="button" class="btn btn-primary btn-quickview" data-toggle="modal"
-                                  data-target="#product_view">
-                                  <i class="material-icons">visibility</i><span>Quick View</span>
-                                </button>
-                              </div>
+                              <div class="regular-price">100RON</div>
+                              <div class="old-price">150RON</div>
                             </div>
                           </div>
                         </div>
@@ -1538,7 +647,7 @@
                       <div class="product-layouts">
                         <div class="product-thumb">
                           <div class="image zoom">
-                            <a href="product-details.html">
+                            <a>
                               <img src="img/products/05.jpg" alt="03" height="501" width="385" />
                               <img src="img/products/06.jpg" alt="06" class="second_image img-responsive" height="501"
                                 width="385" />
@@ -1547,38 +656,12 @@
                           <div class="thumb-description">
                             <div class="caption">
                               <h4 class="product-title text-capitalize">
-                                <a href="product-details.html">Printed V-Neck T-shirt</a>
+                                <a>Printed V-Neck T-shirt</a>
                               </h4>
                             </div>
-                            <div class="rating">
-                              <div class="product-ratings d-inline-block align-middle">
-                                <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons off">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons off">star</i></span>
-                              </div>
-                            </div>
                             <div class="price">
-                              <div class="regular-price">$100.00</div>
-                              <div class="old-price">$150.00</div>
-                            </div>
-                            <div class="button-wrapper">
-                              <div class="button-group text-center">
-                                <button type="button" class="btn btn-primary btn-cart" data-target="#cart-pop"
-                                  data-toggle="modal">
-                                  <i class="material-icons">shopping_cart</i><span>Add to cart</span>
-                                </button>
-                                <a href="wishlist.html" class="btn btn-primary btn-wishlist"><i
-                                    class="material-icons">favorite</i><span>wishlist</span></a>
-                                <button type="button" class="btn btn-primary btn-compare">
-                                  <i class="material-icons">equalizer</i><span>Compare</span>
-                                </button>
-                                <button type="button" class="btn btn-primary btn-quickview" data-toggle="modal"
-                                  data-target="#product_view">
-                                  <i class="material-icons">visibility</i><span>Quick View</span>
-                                </button>
-                              </div>
+                              <div class="regular-price">100RON</div>
+                              <div class="old-price">150RON</div>
                             </div>
                           </div>
                         </div>
@@ -1586,136 +669,19 @@
                       <div class="product-layouts">
                         <div class="product-thumb">
                           <div class="image zoom">
-                            <a href="product-details.html">
+                            <a>
                               <img src="img/products/06.jpg" alt="03" height="501" width="385" />
                             </a>
                           </div>
                           <div class="thumb-description">
                             <div class="caption">
                               <h4 class="product-title text-capitalize">
-                                <a href="product-details.html">Solid Straight Kurta</a>
+                                <a>Solid Straight Kurta</a>
                               </h4>
                             </div>
-                            <div class="rating">
-                              <div class="product-ratings d-inline-block align-middle">
-                                <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons off">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons off">star</i></span>
-                              </div>
-                            </div>
                             <div class="price">
-                              <div class="regular-price">$100.00</div>
-                              <div class="old-price">$150.00</div>
-                            </div>
-                            <div class="button-wrapper">
-                              <div class="button-group text-center">
-                                <button type="button" class="btn btn-primary btn-cart" data-target="#cart-pop"
-                                  data-toggle="modal">
-                                  <i class="material-icons">shopping_cart</i><span>Add to cart</span>
-                                </button>
-                                <a href="wishlist.html" class="btn btn-primary btn-wishlist"><i
-                                    class="material-icons">favorite</i><span>wishlist</span></a>
-                                <button type="button" class="btn btn-primary btn-compare">
-                                  <i class="material-icons">equalizer</i><span>Compare</span>
-                                </button>
-                                <button type="button" class="btn btn-primary btn-quickview" data-toggle="modal"
-                                  data-target="#product_view">
-                                  <i class="material-icons">visibility</i><span>Quick View</span>
-                                </button>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="product-layouts">
-                        <div class="product-thumb">
-                          <div class="image zoom">
-                            <a href="product-details.html">
-                              <img src="img/products/07.jpg" alt="03" height="501" width="385" />
-                            </a>
-                          </div>
-                          <div class="thumb-description">
-                            <div class="caption">
-                              <h4 class="product-title text-capitalize">
-                                <a href="product-details.html">Tropical Shirt Dress</a>
-                              </h4>
-                            </div>
-                            <div class="rating">
-                              <div class="product-ratings d-inline-block align-middle">
-                                <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons off">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons off">star</i></span>
-                              </div>
-                            </div>
-                            <div class="price">
-                              <div class="regular-price">$100.00</div>
-                              <div class="old-price">$150.00</div>
-                            </div>
-                            <div class="button-wrapper">
-                              <div class="button-group text-center">
-                                <button type="button" class="btn btn-primary btn-cart" data-toggle="modal"
-                                  data-target="#product_view" disabled="disabled">
-                                  <i class="material-icons">shopping_cart</i><span>Add to cart</span>
-                                </button>
-                                <a href="wishlist.html" class="btn btn-primary btn-wishlist"><i
-                                    class="material-icons">favorite</i><span>wishlist</span></a>
-                                <button type="button" class="btn btn-primary btn-compare">
-                                  <i class="material-icons">equalizer</i><span>Compare</span>
-                                </button>
-                                <button type="button" class="btn btn-primary btn-quickview" data-toggle="modal"
-                                  data-target="#product_view">
-                                  <i class="material-icons">visibility</i><span>Quick View</span>
-                                </button>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="product-layouts">
-                        <div class="product-thumb">
-                          <div class="image zoom">
-                            <a href="product-details.html">
-                              <img src="img/products/08.jpg" alt="03" height="501" width="385" /></a>
-                          </div>
-                          <div class="thumb-description">
-                            <div class="caption">
-                              <h4 class="product-title text-capitalize">
-                                <a href="product-details.html">Shoulder Embroidered Bodysuit</a>
-                              </h4>
-                            </div>
-                            <div class="rating">
-                              <div class="product-ratings d-inline-block align-middle">
-                                <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons off">star</i></span>
-                                <span class="fa fa-stack"><i class="material-icons off">star</i></span>
-                              </div>
-                            </div>
-                            <div class="price">
-                              <div class="regular-price">$100.00</div>
-                              <div class="old-price">$150.00</div>
-                            </div>
-                            <div class="button-wrapper">
-                              <div class="button-group text-center">
-                                <button type="button" class="btn btn-primary btn-cart" data-target="#cart-pop"
-                                  data-toggle="modal">
-                                  <i class="material-icons">shopping_cart</i><span>Add to cart</span>
-                                </button>
-                                <a href="wishlist.html" class="btn btn-primary btn-wishlist"><i
-                                    class="material-icons">favorite</i><span>wishlist</span></a>
-                                <button type="button" class="btn btn-primary btn-compare">
-                                  <i class="material-icons">equalizer</i><span>Compare</span>
-                                </button>
-                                <button type="button" class="btn btn-primary btn-quickview" data-toggle="modal"
-                                  data-target="#product_view">
-                                  <i class="material-icons">visibility</i><span>Quick View</span>
-                                </button>
-                              </div>
+                              <div class="regular-price">100RON</div>
+                              <div class="old-price">150RON</div>
                             </div>
                           </div>
                         </div>
@@ -1725,568 +691,6 @@
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-        <div id="ttcmstestimonial" class="my-40 my-sm-25 bottom-to-top hb-animate-element">
-          <div class="tttestimonial-content container">
-            <div class="tttestimonial-inner">
-              <div class="tttestimonial owl-carousel">
-                <div>
-                  <div class="testimonial-block">
-                    <div class="testimonial-image">
-                      <img alt="" src="img/banner/user1.jpg" height="120" width="120" />
-                    </div>
-                    <div class="testimonial-content">
-                      <div class="testimonial-desc">
-                        <p>
-                          Duis faucibus enim vitae nunc molestie, nec
-                          facilisis arcu pulvinar. Nullam mattis arcu
-                          convallis, bibendum dui ac, laoreet est.Vivamus
-                          interdum egastas rutrum. Quisque laoreet ante sed
-                          placerat imperdiet.
-                        </p>
-                      </div>
-                      <div class="testimonial-user-title">
-                        <h4>John Duff</h4>
-                        <div class="user-designation">CEO</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div>
-                  <div class="testimonial-block">
-                    <div class="testimonial-image">
-                      <img alt="" src="img/banner/user2.jpg" height="120" width="120" />
-                    </div>
-                    <div class="testimonial-content">
-                      <div class="testimonial-desc">
-                        <p>
-                          Duis faucibus enim vitae nunc molestie, nec
-                          facilisis arcu pulvinar. Nullam mattis arcu
-                          convallis, bibendum dui ac, laoreet est.Vivamus
-                          interdum egastas rutrum. Quisque laoreet ante sed
-                          placerat imperdiet.
-                        </p>
-                      </div>
-                      <div class="testimonial-user-title">
-                        <h4>Nazli dof</h4>
-                        <div class="user-designation">Marketing Manager</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div>
-                  <div class="testimonial-block">
-                    <div class="testimonial-image">
-                      <img alt="" src="img/banner/user3.jpg" height="120" width="120" />
-                    </div>
-                    <div class="testimonial-content">
-                      <div class="testimonial-desc">
-                        <p>
-                          Duis faucibus enim vitae nunc molestie, nec
-                          facilisis arcu pulvinar. Nullam mattis arcu
-                          convallis, bibendum dui ac, laoreet est.Vivamus
-                          interdum egastas rutrum. Quisque laoreet ante sed
-                          placerat imperdiet.
-                        </p>
-                      </div>
-                      <div class="testimonial-user-title">
-                        <h4>Aly Vefa</h4>
-                        <div class="user-designation">Sales Exuctive</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div id="ttcmssubbanner" class="ttcmssubbanner my-40 my-sm-25 bottom-to-top hb-animate-element">
-          <div class="ttbannerblock container">
-            <div class="row">
-              <div class="ttbanner1 ttbanner col-sm-6 col-xs-6">
-                <div class="ttbanner-img">
-                  <a href="#"><img src="img/banner/cms-03.jpg" alt="cms-03" height="600" width="400" /></a>
-                </div>
-                <div class="ttbanner-inner">
-                  <div class="ttbanner-desc text-center">
-                    <span class="title text-uppercase">summer shop</span>
-                    <span class="subtitle text-uppercase py-20">up to 70% off</span>
-                    <span class="shop-now text-capitalize"><a href="#" class="btn-primary">shop now</a></span>
-                  </div>
-                </div>
-              </div>
-              <div class="ttbanner2 ttbanner col-sm-6">
-                <div class="ttbanner-img">
-                  <a href="#"><img src="img/banner/cms-04.jpg" alt="cms-04" height="600" width="400" /></a>
-                </div>
-                <div class="ttbanner-inner">
-                  <div class="ttbanner-desc text-center">
-                    <span class="title text-uppercase">winter shop</span>
-                    <span class="subtitle text-uppercase py-20">up to 70% off</span>
-                    <span class="shop-now text-capitalize"><a href="#" class="btn-primary">shop now</a></span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div id="ttspecial" class="ttspecial my-40 bottom-to-top hb-animate-element">
-          <div class="container">
-            <div class="row">
-              <div class="tt-title d-inline-block float-none w-100 text-center">
-                special products
-              </div>
-              <div class="ttspecial-content products grid owl-carousel">
-                <div class="product-layouts">
-                  <div class="product-thumb">
-                    <div class="image zoom">
-                      <a href="#">
-                        <img src="img/products/01.jpg" alt="01" height="501" width="385" />
-                        <img src="img/products/02.jpg" alt="02" class="second_image img-responsive" height="501"
-                          width="385" />
-                      </a>
-                      <ul class="countdown3 countdown">
-                        <li>
-                          <span class="days">00</span>
-                          <p class="days_text">Days</p>
-                        </li>
-                        <li>
-                          <span class="hours">00</span>
-                          <p class="hours_text">Hours</p>
-                        </li>
-                        <li>
-                          <span class="minutes">00</span>
-                          <p class="minutes_text">Minutes</p>
-                        </li>
-                        <li>
-                          <span class="seconds">00</span>
-                          <p class="seconds_text">Seconds</p>
-                        </li>
-                      </ul>
-                    </div>
-                    <div class="thumb-description">
-                      <div class="caption">
-                        <h4 class="product-title text-capitalize">
-                          <a href="product-details.html">Checked Polo Collar T-shirt</a>
-                        </h4>
-                      </div>
-                      <div class="rating">
-                        <div class="product-ratings d-inline-block align-middle">
-                          <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                          <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                          <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                          <span class="fa fa-stack"><i class="material-icons off">star</i></span>
-                          <span class="fa fa-stack"><i class="material-icons off">star</i></span>
-                        </div>
-                      </div>
-                      <div class="price">
-                        <div class="regular-price">$100.00</div>
-                        <div class="old-price">$150.00</div>
-                      </div>
-                      <div class="button-wrapper">
-                        <div class="button-group text-center">
-                          <button type="button" class="btn btn-primary btn-cart" data-toggle="modal"
-                            data-target="#product_view" disabled="disabled">
-                            <i class="material-icons">shopping_cart</i><span>Add to cart</span>
-                          </button>
-                          <a href="wishlist.html" class="btn btn-primary btn-wishlist"><i
-                              class="material-icons">favorite</i><span>wishlist</span></a>
-                          <button type="button" class="btn btn-primary btn-compare">
-                            <i class="material-icons">equalizer</i><span>Compare</span>
-                          </button>
-                          <button type="button" class="btn btn-primary btn-quickview" data-toggle="modal"
-                            data-target="#product_view">
-                            <i class="material-icons">visibility</i><span>Quick View</span>
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="product-layouts">
-                  <div class="product-thumb">
-                    <div class="image zoom">
-                      <a href="#">
-                        <img src="img/products/02.jpg" alt="02" height="501" width="385" />
-                        <img src="img/products/03.jpg" alt="03" class="second_image img-responsive" height="501"
-                          width="385" /></a>
-                    </div>
-                    <div class="thumb-description">
-                      <div class="caption">
-                        <h4 class="product-title text-capitalize">
-                          <a href="product-details.html">Crochet Detail Lightweight Top</a>
-                        </h4>
-                      </div>
-                      <div class="rating">
-                        <div class="product-ratings d-inline-block align-middle">
-                          <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                          <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                          <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                          <span class="fa fa-stack"><i class="material-icons off">star</i></span>
-                          <span class="fa fa-stack"><i class="material-icons off">star</i></span>
-                        </div>
-                      </div>
-                      <div class="price">
-                        <div class="regular-price">$100.00</div>
-                        <div class="old-price">$150.00</div>
-                      </div>
-                      <div class="button-wrapper">
-                        <div class="button-group text-center">
-                          <button type="button" class="btn btn-primary btn-cart" data-target="#cart-pop"
-                            data-toggle="modal">
-                            <i class="material-icons">shopping_cart</i><span>Add to cart</span>
-                          </button>
-                          <a href="wishlist.html" class="btn btn-primary btn-wishlist"><i
-                              class="material-icons">favorite</i><span>wishlist</span></a>
-                          <button type="button" class="btn btn-primary btn-compare">
-                            <i class="material-icons">equalizer</i><span>Compare</span>
-                          </button>
-                          <button type="button" class="btn btn-primary btn-quickview" data-toggle="modal"
-                            data-target="#product_view">
-                            <i class="material-icons">visibility</i><span>Quick View</span>
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="product-layouts">
-                  <div class="product-thumb">
-                    <div class="image zoom">
-                      <a href="#">
-                        <img src="img/products/03.jpg" alt="03" height="501" width="385" />
-                        <img src="img/products/04.jpg" alt="04" class="second_image img-responsive" height="501"
-                          width="385" /></a>
-                    </div>
-                    <div class="thumb-description">
-                      <div class="caption">
-                        <h4 class="product-title text-capitalize">
-                          <a href="product-details.html">Girls Floral Print Jumpsuit</a>
-                        </h4>
-                      </div>
-                      <div class="rating">
-                        <div class="product-ratings d-inline-block align-middle">
-                          <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                          <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                          <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                          <span class="fa fa-stack"><i class="material-icons off">star</i></span>
-                          <span class="fa fa-stack"><i class="material-icons off">star</i></span>
-                        </div>
-                      </div>
-                      <div class="price">
-                        <div class="regular-price">$100.00</div>
-                        <div class="old-price">$150.00</div>
-                      </div>
-                      <div class="button-wrapper">
-                        <div class="button-group text-center">
-                          <button type="button" class="btn btn-primary btn-cart" data-target="#cart-pop"
-                            data-toggle="modal">
-                            <i class="material-icons">shopping_cart</i><span>Add to cart</span>
-                          </button>
-                          <a href="wishlist.html" class="btn btn-primary btn-wishlist"><i
-                              class="material-icons">favorite</i><span>wishlist</span></a>
-                          <button type="button" class="btn btn-primary btn-compare">
-                            <i class="material-icons">equalizer</i><span>Compare</span>
-                          </button>
-                          <button type="button" class="btn btn-primary btn-quickview" data-toggle="modal"
-                            data-target="#product_view">
-                            <i class="material-icons">visibility</i><span>Quick View</span>
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="product-layouts">
-                  <div class="product-thumb">
-                    <div class="image zoom">
-                      <a href="#">
-                        <img src="img/products/04.jpg" alt="04" height="501" width="385" />
-                        <img src="img/products/05.jpg" alt="05" class="second_image img-responsive" height="501"
-                          width="385" /></a>
-                    </div>
-                    <div class="thumb-description">
-                      <div class="caption">
-                        <h4 class="product-title text-capitalize">
-                          <a href="product-details.html">Girls Striped Fit and Flare Dress</a>
-                        </h4>
-                      </div>
-                      <div class="rating">
-                        <div class="product-ratings d-inline-block align-middle">
-                          <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                          <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                          <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                          <span class="fa fa-stack"><i class="material-icons off">star</i></span>
-                          <span class="fa fa-stack"><i class="material-icons off">star</i></span>
-                        </div>
-                      </div>
-                      <div class="price">
-                        <div class="regular-price">$100.00</div>
-                        <div class="old-price">$150.00</div>
-                      </div>
-                      <div class="button-wrapper">
-                        <div class="button-group text-center">
-                          <button type="button" class="btn btn-primary btn-cart" data-target="#cart-pop"
-                            data-toggle="modal">
-                            <i class="material-icons">shopping_cart</i><span>Add to cart</span>
-                          </button>
-                          <a href="wishlist.html" class="btn btn-primary btn-wishlist"><i
-                              class="material-icons">favorite</i><span>wishlist</span></a>
-                          <button type="button" class="btn btn-primary btn-compare">
-                            <i class="material-icons">equalizer</i><span>Compare</span>
-                          </button>
-                          <button type="button" class="btn btn-primary btn-quickview" data-toggle="modal"
-                            data-target="#product_view">
-                            <i class="material-icons">visibility</i><span>Quick View</span>
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="product-layouts">
-                  <div class="product-thumb">
-                    <div class="image zoom">
-                      <a href="#">
-                        <img src="img/products/05.jpg" alt="05" height="501" width="385" />
-                        <img src="img/products/06.jpg" alt="06" class="second_image img-responsive" height="501"
-                          width="385" />
-                      </a>
-                    </div>
-                    <div class="thumb-description">
-                      <div class="caption">
-                        <h4 class="product-title text-capitalize">
-                          <a href="product-details.html">Juventus Henley Neck Jersey</a>
-                        </h4>
-                      </div>
-                      <div class="rating">
-                        <div class="product-ratings d-inline-block align-middle">
-                          <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                          <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                          <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                          <span class="fa fa-stack"><i class="material-icons off">star</i></span>
-                          <span class="fa fa-stack"><i class="material-icons off">star</i></span>
-                        </div>
-                      </div>
-                      <div class="price">
-                        <div class="regular-price">$100.00</div>
-                        <div class="old-price">$150.00</div>
-                      </div>
-                      <div class="button-wrapper">
-                        <div class="button-group text-center">
-                          <button type="button" class="btn btn-primary btn-cart" data-target="#cart-pop"
-                            data-toggle="modal">
-                            <i class="material-icons">shopping_cart</i><span>Add to cart</span>
-                          </button>
-                          <a href="wishlist.html" class="btn btn-primary btn-wishlist"><i
-                              class="material-icons">favorite</i><span>wishlist</span></a>
-                          <button type="button" class="btn btn-primary btn-compare">
-                            <i class="material-icons">equalizer</i><span>Compare</span>
-                          </button>
-                          <button type="button" class="btn btn-primary btn-quickview" data-toggle="modal"
-                            data-target="#product_view">
-                            <i class="material-icons">visibility</i><span>Quick View</span>
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="product-layouts">
-                  <div class="product-thumb">
-                    <div class="image zoom">
-                      <a href="#">
-                        <img src="img/products/06.jpg" alt="06" height="501" width="385" />
-                        <img src="img/products/07.jpg" alt="07" class="second_image img-responsive" height="501"
-                          width="385" /></a>
-                    </div>
-                    <div class="thumb-description">
-                      <div class="caption">
-                        <h4 class="product-title text-capitalize">
-                          <a href="product-details.html">Printed Dugaree with T-Shirt</a>
-                        </h4>
-                      </div>
-                      <div class="rating">
-                        <div class="product-ratings d-inline-block align-middle">
-                          <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                          <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                          <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                          <span class="fa fa-stack"><i class="material-icons off">star</i></span>
-                          <span class="fa fa-stack"><i class="material-icons off">star</i></span>
-                        </div>
-                      </div>
-                      <div class="price">
-                        <div class="regular-price">$100.00</div>
-                        <div class="old-price">$150.00</div>
-                      </div>
-                      <div class="button-wrapper">
-                        <div class="button-group text-center">
-                          <button type="button" class="btn btn-primary btn-cart" data-target="#cart-pop"
-                            data-toggle="modal">
-                            <i class="material-icons">shopping_cart</i><span>Add to cart</span>
-                          </button>
-                          <a href="wishlist.html" class="btn btn-primary btn-wishlist"><i
-                              class="material-icons">favorite</i><span>wishlist</span></a>
-                          <button type="button" class="btn btn-primary btn-compare">
-                            <i class="material-icons">equalizer</i><span>Compare</span>
-                          </button>
-                          <button type="button" class="btn btn-primary btn-quickview" data-toggle="modal"
-                            data-target="#product_view">
-                            <i class="material-icons">visibility</i><span>Quick View</span>
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            id="ttsmartblog"
-            class="my-40 my-sm-25 bottom-to-top hb-animate-element"
-          >
-            <div
-              class="tt-title d-inline-block float-none w-100 text-center text-capitalize"
-            >
-              Contact
-            </div>
-            <div
-              class="tt-desc d-inline-block float-none w-100 text-center mb-4"
-            >
-              Adresa: Strada Ion Andreescu 23, Oradea 410514 Telefon: 0771667100
-              Email: contact@house-of-rpo.com
-            </div>
-
-            <div class="row px-4">
-              <!--Google Maps-->
-              <div class="contact-form-area col-sm-7">
-                <div class="contact-form-inner">
-                  <h4 class="text-capitalize">tell us your project</h4>
-                  <form id="contact-form" method="post">
-                    <div class="row">
-                      <div class="col-md-12">
-                        <label for="name" class="float-left"
-                          >First Name<span class="required">*</span></label
-                        >
-                        <input
-                          type="text"
-                          name="name"
-                          id="name"
-                          class="float-right"
-                          required=""
-                        />
-                      </div>
-                      <div class="col-md-12">
-                        <label for="last_name" class="float-left"
-                          >Last Name<span class="required">*</span></label
-                        >
-                        <input
-                          type="text"
-                          name="last_name"
-                          id="last_name"
-                          class="float-right"
-                          required=""
-                        />
-                      </div>
-                      <div class="col-md-12">
-                        <label for="email" class="float-left"
-                          >Email<span class="required">*</span></label
-                        >
-                        <input
-                          type="text"
-                          name="email"
-                          id="email"
-                          class="float-right"
-                          required=""
-                        />
-                      </div>
-                      <div class="col-md-12">
-                        <label for="subject" class="float-left"
-                          >Subject<span class="required">*</span></label
-                        >
-                        <input
-                          type="text"
-                          name="subject"
-                          id="subject"
-                          class="float-right"
-                          required=""
-                        />
-                      </div>
-                      <div class="col-md-12">
-                        <label for="message" class="float-left">Message</label>
-                        <textarea
-                          name="message"
-                          id="message"
-                          class="float-right"
-                        ></textarea>
-                      </div>
-                    </div>
-                    <input
-                      type="submit"
-                      class="submit-btn default-btn btn-primary btn"
-                      value="Send Email"
-                    />
-                    <p class="form-messege"></p>
-                  </form>
-                </div>
-              </div>
-              <div class="contact-address col-sm-5">
-                <div class="contact-inner float-left w-100">
-                  <div class="contact-information">
-                    <h4 class="text-capitalize">contact us</h4>
-
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Pellentesque eu vehicula turpis. Donec semper, nunc a
-                      imperdiet sollicitudin, lacus arcu semper nibh, non
-                      fermentum risus est quis augue.
-                    </p>
-                    <div class="contact-wrapper">
-                      <div class="contact-list">
-                        <i class="material-icons">place</i>
-                        <span
-                          >Address : 4030, Central Bazzar, opp. Varachha Police
-                          Station, Varachha Main Road, Surat, Gujarat 395006,
-                          India</span
-                        >
-                      </div>
-                      <div class="contact-list">
-                        <i class="material-icons">call</i>
-                        <span>demo@store.com</span>
-                      </div>
-                      <div class="contact-list">
-                        <i class="material-icons">email</i>
-                        <span>0(1234) 567 890</span>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="working-time">
-                    <h5>Working hours</h5>
-                    <div>
-                      <div>Monday – Saturday</div>
-                      <div>09AM – 07PM</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="tt-desc d-inline-block float-none w-100 text-center">
-            Adresa: Strada Ion Andreescu 23, Oradea 410514 Telefon: 0771667100
-            Email: contact@house-of-rpo.com
-          </div>
-        </div>
-        <div id="ttsmartblog" class="my-40 my-sm-25 bottom-to-top hb-animate-element">
-          <div class="tt-title d-inline-block float-none w-100 text-center text-capitalize">
-            Maps
-          </div>
-          <div class="tt-desc d-inline-block float-none w-100 text-center">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d17452.04700320363!2d21.918579376514494!3d47.045535977909886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x474647348f82507f%3A0x41c256944761eb96!2sReconditionat%2C%20vopsit%2C%20haine%2C%20incaltaminte%2Cgenti%20din%20piele!5e0!3m2!1sen!2sro!4v1692705845327!5m2!1sen!2sro"
-              width="100%" height="600" style="border: 0" allowfullscreen="" loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
         </div>
         <div id="ttbrandlogo" class="my-40 my-sm-25 bottom-to-top hb-animate-element">
@@ -2313,6 +717,124 @@
             </div>
           </div>
         </div>
+        <div id="ttcmstestimonial" class="my-40 my-sm-25 bottom-to-top hb-animate-element">
+          <div class="tttestimonial-content container">
+            <div class="tttestimonial-inner">
+              <div class="tttestimonial owl-carousel">
+                <div>
+                  <div class="testimonial-block">
+                    <!-- <div class="testimonial-image">
+                      <img alt="" src="img/banner/user1.jpg" height="120" width="120" />
+                    </div> -->
+                    <div class="testimonial-content">
+                      <div class="testimonial-desc">
+                        <p>
+                          Am lasat o pereche de cizme ugg la vopsit. Erau negre decolorate….acum arata ca noi. Recomand
+                          cu incredere!
+                        </p>
+                      </div>
+                      <div class="testimonial-user-title">
+                        <h4>Berinde Gilda</h4>
+                        <!-- <div class="user-designation">CEO</div> -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="testimonial-block">
+                    <!-- <div class="testimonial-image">
+                      <img alt="" src="img/banner/user2.jpg" height="120" width="120" />
+                    </div> -->
+                    <div class="testimonial-content">
+                      <div class="testimonial-desc">
+                        <p>
+                          Foarte multimita de seriozitatea serviciile lor!
+                        </p>
+                      </div>
+                      <div class="testimonial-user-title">
+                        <h4>Melania Zahari</h4>
+                        <!-- <div class="user-designation">Marketing Manager</div> -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="testimonial-block">
+                    <!-- <div class="testimonial-image">
+                      <img alt="" src="img/banner/user3.jpg" height="120" width="120" />
+                    </div> -->
+                    <div class="testimonial-content">
+                      <div class="testimonial-desc">
+                        <p>
+                          Foarte prompți și profesioniști ! 🙏🏼
+                        </p>
+                      </div>
+                      <div class="testimonial-user-title">
+                        <h4>Andreea Guti</h4>
+                        <!-- <div class="user-designation">Sales Exuctive</div> -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="ttspecial" class="ttspecial my-40 bottom-to-top hb-animate-element">
+          <div id="ttsmartblog" class="my-40 my-sm-25 bottom-to-top hb-animate-element">
+            <div class="tt-title d-inline-block float-none w-100 text-center text-capitalize">
+              Contact
+            </div>
+
+            <div class="row contact-row">
+              <!--Google Maps-->
+              <div class="contact-form-area col-sm-7">
+                <div class="contact-form-inner">
+                  <!-- <h4 class="text-capitalize">Trimite mesaj</h4> -->
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d17452.04700320363!2d21.918579376514494!3d47.045535977909886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x474647348f82507f%3A0x41c256944761eb96!2sReconditionat%2C%20vopsit%2C%20haine%2C%20incaltaminte%2Cgenti%20din%20piele!5e0!3m2!1sen!2sro!4v1692705845327!5m2!1sen!2sro"
+                    width="100%" height="490" style="border: 0" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+              </div>
+              <div class="contact-address col-sm-5">
+                <!-- <h4 class="text-capitalize" style="margin: 40px 0;">Informatii contact</h4> -->
+
+                <div class="contact-inner float-left w-100" style="margin-top: 50px;">
+                  <div class="contact-information">
+                    <div class="contact-wrapper">
+                      <div class="contact-list">
+                        <h5>Adresa</h5>
+                        <span>Strada Ion Andreescu 23, Oradea 410514</span>
+                      </div>
+                      <div class="contact-list">
+                        <h5>Telefon</h5>
+                        <span><a href="tel:+400771667100" class="primary-link">0771667100</a></span>
+                      </div>
+                      <div class="contact-list">
+                        <h5>Email</h5>
+                        <span><a href="mailto:contact@house-of-rpo.com"
+                            class="primary-link">contact@house-of-rpo.com</a></span>
+                      </div>
+                      <div class="contact-list" style="border-bottom: 0px;">
+                        <h5>Orar</h5>
+                        <span>
+                          <div>Luni – Vineri</div>
+                          <div>09AM – 19PM</div>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <!-- <div class="tt-desc d-inline-block float-none w-100 text-center">
+            Adresa: Strada Ion Andreescu 23, Oradea 410514 Telefon: 0771667100
+            Email: contact@house-of-rpo.com
+          </div> -->
+        </div>
       </div>
     </div>
   </main>
@@ -2325,16 +847,15 @@
         ">
       <div class="container">
         <div class="tt-newsletter col-sm-7">
-          <h2 class="text-uppercase">Subscribe to our Newsletter</h2>
+          <h2 class="text-uppercase">Aboneaza-te la noutati</h2>
         </div>
         <div class="block-content col-sm-5">
           <form method="post" action="contact-us.html">
             <div class="input-group">
-              <input type="email" name="email" value="" placeholder="Email address.." required=""
-                class="form-control" />
+              <input type="email" name="email" value="" placeholder="Email ..." required="" class="form-control" />
               <span class="input-group-btn">
                 <button class="btn btn-theme text-uppercase btn-primary" type="submit">
-                  Subscribe
+                  Abonare
                 </button>
               </span>
             </div>
@@ -2348,377 +869,34 @@
           <div class="col-md-2 footer-cms footer-column">
             <div class="ttcmsfooter">
               <div class="footer-logo">
-                <img
-                  src="img/img/logo.png"
-                  alt="footer-logo"
-                  width="200"
-                  height="50"
-                />
+                <img src="img/img/logo.png" alt="footer-logo" width="200" height="50" />
               </div>
-              <div class="footer-desc">
-                At vero eos et accusamus et iusto odio dignissimos ducimus, duis
-                faucibus enim vitae
-              </div>
+              <!-- <div class="footer-desc" style="text-align: center;">
+                Revitalizăm piele
+              </div> -->
             </div>
           </div>
 
           <div class="col-md-2 footer-column">
-            <div class="title text-right">
-              <a
-                href="#products"
-                class="font-weight-normal text-capitalize mb-30"
-                data-toggle="collapse"
-                aria-expanded="false"
-                >House of RPO</a
-              >
+            <div class="text-right">
+              <!-- <span class="title">House of RPO</span> -->
             </div>
             <ul id="products" class="list-unstyled text-right collapse">
               <li>
-                <a href="/">Home</a>
+                <a href="/" class="dark-link">Acasă</a>
               </li>
               <li>
-                <a href="/desprei">Desprei</a>
+                <a href="/despre" class="dark-link">Despre</a>
+              </li>
+              <li>
+                <a href="/contact" class="dark-link">Contact</a>
               </li>
             </ul>
           </div>
         </div>
       </div>
-    </div>
-    <!-- Copyright -->
-    <div class="footer-bottom-wrap">
-      <div class="container">
-        <div class="row">
-          <div class="footer-copyright text-center py-3">
-            ©<span id="year">2019</span> - House-of-rpo
-          </div>
-        </div>
-      </div>
-    </div>
-    <a href="#" id="goToTop" title="Back to top" class="btn-primary"><i
-        class="material-icons arrow-up">keyboard_arrow_up</i></a>
+  </div>
   </footer>
-  <!-- Footer -->
-  <div class="alert text-center cookiealert" role="alert">
-    <b>Do you like cookies?</b> We use cookies to ensure you get the best
-    experience on our website.
-    <a href="https://demo.templatetrip.com/Html/HTML001_victoria/" rel="noreferrer">learn more</a>
-
-    <button type="button" class="btn btn-primary btn-sm acceptcookies" aria-label="Close">
-      I agree
-    </button>
-  </div>
-
-  <!-- Register modal -->
-  <div class="modal fade" id="modalRegisterForm" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header text-center">
-          <h4 class="modal-title w-100 font-weight-medium text-left">
-            Sign up
-          </h4>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body mx-3">
-          <div class="md-form mb-4">
-            <input type="text" id="RegisterForm-name" class="form-control validate" placeholder="Your name" />
-          </div>
-          <div class="md-form mb-4">
-            <input type="email" id="RegisterForm-email" class="form-control validate" placeholder="Your email" />
-          </div>
-          <div class="md-form mb-4">
-            <input type="password" id="RegisterForm-pass" class="form-control validate" placeholder="Your password" />
-          </div>
-          <div class="checkbox-link d-flex justify-content-between">
-            <div class="left-col">
-              <input id="remember-me" type="checkbox" /><label for="remember_me">Remember Me</label>
-            </div>
-            <div class="right-col"><a href="#">Forget Password?</a></div>
-          </div>
-        </div>
-
-        <div class="modal-footer d-flex justify-content-center">
-          <button class="btn btn-primary">Sign up</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Login modal -->
-  <div class="modal fade" id="modalLoginForm" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header text-center">
-          <h4 class="modal-title w-100 font-weight-medium text-left">
-            Sign in
-          </h4>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body mx-3">
-          <div class="md-form mb-4">
-            <input type="text" id="LoginForm-name" class="form-control validate" placeholder="Your name" />
-          </div>
-          <div class="md-form mb-4">
-            <input type="password" id="LoginForm-pass" class="form-control validate" placeholder="Your password" />
-          </div>
-          <div class="checkbox-link d-flex justify-content-between">
-            <div class="left-col">
-              <input type="checkbox" id="remember_me" /><label for="remember_me">Remember Me</label>
-            </div>
-            <div class="right-col"><a href="#">Forget Password?</a></div>
-          </div>
-        </div>
-
-        <div class="modal-footer d-flex justify-content-center">
-          <button class="btn btn-primary">Sign in</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- product_view modal -->
-  <div class="modal fade product_view" id="product_view" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h4 class="modal-title w-100w-100w-100 font-weight-bold d-none">
-            Quick view
-          </h4>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">×</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          <div class="row">
-            <div class="col-md-6 left-columm">
-              <div class="product-large-image tab-content">
-                <div class="tab-pane active" id="product-1" role="tabpanel" aria-labelledby="product-tab-1">
-                  <div class="single-img img-full">
-                    <a href="img/products/01.jpg"><img src="img/products/01.jpg" class="img-fluid" alt="" width="368"
-                        height="478" /></a>
-                  </div>
-                </div>
-                <div class="tab-pane" id="product-2" role="tabpanel" aria-labelledby="product-tab-2">
-                  <div class="single-img">
-                    <a href="img/products/02.jpg"><img src="img/products/02.jpg" class="img-fluid" alt="" width="368"
-                        height="478" /></a>
-                  </div>
-                </div>
-                <div class="tab-pane" id="product-3" role="tabpanel" aria-labelledby="product-tab-3">
-                  <div class="single-img">
-                    <a href="img/products/03.jpg"><img src="img/products/03.jpg" class="img-fluid" alt="" width="368"
-                        height="478" /></a>
-                  </div>
-                </div>
-                <div class="tab-pane" id="product-4" role="tabpanel" aria-labelledby="product-tab-4">
-                  <div class="single-img">
-                    <a href="img/products/04.jpg"><img src="img/products/04.jpg" class="img-fluid" alt="" width="368"
-                        height="478" /></a>
-                  </div>
-                </div>
-                <div class="tab-pane" id="product-5" role="tabpanel" aria-labelledby="product-tab-5">
-                  <div class="single-img">
-                    <a href="img/products/05.jpg"><img src="img/products/05.jpg" class="img-fluid" alt="" width="368"
-                        height="478" /></a>
-                  </div>
-                </div>
-              </div>
-              <div class="small-image-list float-left w-100">
-                <div class="nav-add small-image-slider-single-product-tabstyle-3 owl-carousel" role="tablist">
-                  <div class="single-small-image img-full">
-                    <a data-toggle="tab" id="product-tab-1" href="#product-1" class="img active"><img
-                        src="img/products/01.jpg" class="img-fluid" alt="" /></a>
-                  </div>
-                  <div class="single-small-image img-full">
-                    <a data-toggle="tab" id="product-tab-2" href="#product-2" class="img"><img src="img/products/02.jpg"
-                        class="img-fluid" alt="" /></a>
-                  </div>
-                  <div class="single-small-image img-full">
-                    <a data-toggle="tab" id="product-tab-3" href="#product-3" class="img"><img src="img/products/03.jpg"
-                        class="img-fluid" alt="" /></a>
-                  </div>
-                  <div class="single-small-image img-full">
-                    <a data-toggle="tab" id="product-tab-4" href="#product-4" class="img"><img src="img/products/04.jpg"
-                        class="img-fluid" alt="" /></a>
-                  </div>
-                  <div class="single-small-image img-full">
-                    <a data-toggle="tab" id="product-tab-5" href="#product-5" class="img"><img src="img/products/05.jpg"
-                        class="img-fluid" alt="" /></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 product_content">
-              <h4 class="product-title text-capitalize">
-                Printed Polo Collar T-shirt
-              </h4>
-              <div class="rating">
-                <div class="product-ratings d-inline-block align-middle">
-                  <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                  <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                  <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                  <span class="fa fa-stack"><i class="material-icons off">star</i></span>
-                  <span class="fa fa-stack"><i class="material-icons off">star</i></span>
-                </div>
-              </div>
-              <span class="description float-left w-100">Lorem Ipsum is simply dummy text of the printing and
-                typesetting industry. Lorem Ipsum has been the industry's
-                standard dummy text ever since the 1500s, when an unknown
-                printer took a galley of type and scrambled it to make a type
-                specimen book.</span>
-              <h3 class="price float-left w-100">
-                <span class="regular-price align-middle">$75.00</span><span class="old-price align-middle">$60.00</span>
-              </h3>
-
-              <div class="product-variants float-left w-100">
-                <div class="col-md-4 col-sm-6 col-xs-12 size-options d-flex align-items-center">
-                  <h5>Size:</h5>
-
-                  <select class="form-control" name="select">
-                    <option value="" selected="">Size</option>
-                    <option value="black">Medium</option>
-                    <option value="white">Large</option>
-                    <option value="gold">Small</option>
-                    <option value="rose gold">Extra large</option>
-                  </select>
-                </div>
-                <div class="color-option d-flex align-items-center">
-                  <h5>color :</h5>
-                  <ul class="color-categories">
-                    <li class="active">
-                      <a class="tt-pink" href="#" title="Pink"></a>
-                    </li>
-                    <li>
-                      <a class="tt-blue" href="#" title="Blue"></a>
-                    </li>
-                    <li>
-                      <a class="tt-yellow" href="#" title="Yellow"></a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div class="btn-cart d-flex align-items-center float-left w-100">
-                <h5>qty:</h5>
-                <input value="1" type="number" />
-                <button type="button" class="btn btn-primary">
-                  <i class="material-icons">shopping_cart</i> Add To Cart
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- cart-pop modal -->
-  <div class="modal fade" id="cart-pop" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header alert-success">
-          <h4 class="modal-title w-100w-100w-100">
-            Product successfully added to your shopping cart
-          </h4>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">×</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          <div class="row">
-            <div class="col-md-6 divide-right">
-              <div class="row">
-                <div class="col-md-5 col-sm-4 col-xs-12 product-img float-left">
-                  <img src="img/products/01.jpg" class="img-responsive" alt="01" />
-                </div>
-                <div class="col-md-7 col-sm-8 col-xs-12 product-desc float-left">
-                  <h4 class="product-title text-capitalize">
-                    Burgundy Small Dress
-                  </h4>
-                  <div class="rating">
-                    <div class="product-ratings d-inline-block align-middle">
-                      <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                      <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                      <span class="fa fa-stack"><i class="material-icons">star</i></span>
-                      <span class="fa fa-stack"><i class="material-icons off">star</i></span>
-                      <span class="fa fa-stack"><i class="material-icons off">star</i></span>
-                    </div>
-                  </div>
-                  <h3 class="price float-left w-100">
-                    <span class="regular-price align-middle">$75.00</span><span
-                      class="old-price align-middle">$60.00</span>
-                  </h3>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 divide-left">
-              <p class="cart-products-count">
-                There are 2 items in your cart.
-              </p>
-              <p class="total-products float-left w-100">
-                <strong>Total products:</strong> $150.00
-              </p>
-              <p class="shipping float-left w-100">
-                <strong>Total shipping:</strong> free
-              </p>
-              <p class="total-price float-left w-100">
-                <strong>Total:</strong> $150.00(tax incl.)
-              </p>
-              <div class="cart-content-btn float-left w-100">
-                <form action="#">
-                  <input class="btn pull-right mt_10 btn-primary" value="Continue shopping" type="submit" />
-                </form>
-                <form action="checkout_page.html">
-                  <input class="btn pull-right mt_10 btn-secondary" value="Proceed to checkout" type="submit" />
-                </form>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="compare-wrapper float-left w-100">
-    <div class="compare-inner d-flex align-items-center p-20">
-      <span class="close"><i class="material-icons"> close </i></span>
-      <div class="col-xs-12 col-sm-2 col-md-3 float-left d-flex align-items-center flex-column compare-left">
-        <h2>compare products</h2>
-        <div class="compare-btn">show all</div>
-      </div>
-      <div class="col-xs-12 col-sm-10 col-md-9 d-flex float-left align-items-center compare-right">
-        <div class="compare-close-btn"></div>
-        <div class="compare-products d-flex col-sm-7 col-lg-5">
-          <div class="row">
-            <div class="single-item col-sm-4 col-xs-4">
-              <div class="remove"></div>
-              <div class="image">
-                <img src="img/products/01.jpg" class="img-fluid" alt="" />
-              </div>
-            </div>
-            <div class="single-item col-sm-4 col-xs-4">
-              <div class="remove"></div>
-              <div class="image">
-                <img src="img/products/02.jpg" class="img-fluid" alt="" />
-              </div>
-            </div>
-            <div class="single-item col-sm-4 col-xs-4">
-              <div class="remove"></div>
-              <div class="image">
-                <img src="img/products/03.jpg" class="img-fluid" alt="" />
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="buttons col-sm-5 col-lg-2">
-          <a href="compare.html" class="compare-btn btn btn-secondary float-left w-100 mb-15">compare</a>
-          <div class="clear-btn btn btn-primary float-left w-100">clear</div>
-        </div>
-      </div>
-    </div>
-  </div>
 
   <!-- Bootstrap core JavaScript
     ================================================== -->

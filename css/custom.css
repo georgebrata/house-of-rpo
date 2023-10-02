@@ -1,0 +1,30 @@
+/* CUSTOM CSS FOR HOUSE OF RPO */
+
+html {
+    /* RPO colors */
+    --primary-1: #25274D;
+    --primary-2: #464866;
+    --primary-3: #AAABB8;
+    --primary-4: #2E9CCA;
+    --primary-5: #29648A;
+    --font-family-1: 'Oswald', sans-serif;
+    --font-family-2: 'Oswald', sans-serif;
+}
+
+.primary-link {
+    color: var(--primary-1);
+}
+
+.primary-link:hover {
+    color: var(--primary-2);
+    text-decoration: underline;
+}
+
+.dark-link {
+    color: white;
+}
+
+.dark-link:hover {
+    color: var(--primary-3);
+    text-decoration: underline !important;
+}
