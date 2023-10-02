@@ -262,6 +262,10 @@ body {
     top: 0;
   }
 }
+.row-space {
+  display: flex !important;
+  justify-content: space-between !important;
+}
 .header-area {
   float: left;
   width: 100%;
