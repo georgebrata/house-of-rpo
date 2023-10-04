@@ -3355,7 +3355,7 @@ body {
             border: none;
             padding: 20px 0;
             .subtitle {
-              font: 400 14px/18px $primary-font;
+              font: 400 14px/18px $primary-font !important;
             }
             .shop-now {
               margin: 0;
@@ -3587,4 +3587,8 @@ body {
   .cookiealert .acceptcookies {
     margin: 0;
   }
+}
+
+.ttbanner-heading {
+  font-family: $font-secondary !important;
 }
