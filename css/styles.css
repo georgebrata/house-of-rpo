@@ -4279,12 +4279,11 @@ nav .breadcrumb {
   .blog-detail .ttblog .item .ttblog_image_holder a:before {
     display: none; }
   .blog-detail .ttblog .blog-content-wrap .blog_inner {
-    padding: 30px 0;
     text-align: left;
     border-top: none; }
     @media (max-width: 543px) {
       .blog-detail .ttblog .blog-content-wrap .blog_inner {
-        padding: 30px 0 0; } }
+        padding: 0px 0 0; } }
     .blog-detail .ttblog .blog-content-wrap .blog_inner .blog-title {
       font: 400 20px/24px 'Bebas Neue', sans-serif;
       margin: 0 0 30px; }
