@@ -1,5 +1,4 @@
-# PRODUCTION Workflow for houseofrpo.com
-name: CI Deploy main branch -> houseofrpo.com
+name: Deploy main brain -> houseofrpo.ro 
 
 # Controls when the workflow will run
 on:
@@ -34,7 +33,7 @@ jobs:
       - name: deploy
         uses: SamKirkland/FTP-Deploy-Action@4.0.0
         with:
-          server: ftp.houseofrpo.com
-          username: deploy@houseofrpo.com
+          server: ftp.houseofrpo.ro
+          username: deploy@houseofrpo.ro
           password: ${{secrets.FTP_PASSWORD}}
           local-dir: ./
