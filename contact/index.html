@@ -18,8 +18,7 @@
   <!-- FONTS -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Playfair+Display:wght@400;700&display=swap"
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;700&display=swap"
     rel="stylesheet">
 
   <!-- IMPORTS -->
@@ -138,19 +137,19 @@
 
 
       <div id="main">
-        
+
         <div id="ttspecial" class="ttspecial mb-40 bottom-to-top hb-animate-element">
           <div id="ttsmartblog" class="mb-40 mb-sm-25 bottom-to-top hb-animate-element">
             <!-- <div class="tt-title d-inline-block float-none w-100 text-center text-capitalize">
               Contact
             </div> -->
 
-            <div class="row contact-row">
+            <div class="row contact-row px-3">
               <!--Google Maps-->
               <div class="contact-form-area col-sm-7">
                 <div class="contact-form-inner">
-                  <h4 class="text-capitalize">Trimite mesaj</h4>
-                  <form id="contact-form" method="post">
+                  <h4 class="text-capitalize font-primary">Trimite mesaj</h4>
+                  <form id="contact-form" action="https://formsubmit.co/contact@houseofrpo.ro" method="POST">
                     <div class="row">
                       <div class="col-md-12">
                         <label for="name" class="float-left">Nume<span class="required">*</span></label>
@@ -161,7 +160,7 @@
                         <input type="text" name="email" id="email" class="float-right" required="" />
                       </div>
                       <div class="col-md-12">
-                        <label for="message" class="float-left">Mesajul tau</label>
+                        <label for="message" class="float-left">Mesajul tău</label>
                         <textarea name="message" id="message" class="float-right"></textarea>
                       </div>
                     </div>
@@ -173,27 +172,27 @@
               <div class="contact-address col-sm-5">
                 <!-- <h4 class="text-capitalize" style="margin: 40px 0;">Informatii contact</h4> -->
 
-                <div class="contact-inner float-left w-100" style="margin-top: 30px;">
-                  <div class="contact-information" style="margin-bottom: 0;">
+                <div class="contact-inner float-left w-100" style="margin-top: 50px">
+                  <div class="contact-information">
                     <div class="contact-wrapper">
-                      <div class="contact-list">
-                        <h5>Adresa</h5>
-                        <span>Strada Ion Andreescu 23, Oradea 410514</span>
+                      <div class="contact-list" style="padding-top: 0;">
+                        <h5 class="font-primary">Adresa</h5>
+                        <span class="font-primary">Strada Ion Andreescu 23, Oradea 410514</span>
                       </div>
                       <div class="contact-list">
-                        <h5>Telefon</h5>
+                        <h5 class="font-primary">Telefon</h5>
                         <span><a href="tel:+400771667100" class="primary-link">0771667100</a></span>
                       </div>
                       <div class="contact-list">
-                        <h5>Email</h5>
+                        <h5 class="font-primary">Email</h5>
                         <span><a href="mailto:contact@house-of-rpo.com"
                             class="primary-link">contact@house-of-rpo.com</a></span>
                       </div>
-                      <div class="contact-list" style="border-bottom: 0px;">
-                        <h5>Orar</h5>
+                      <div class="contact-list" style="padding-bottom: 0;border-bottom: 0px;">
+                        <h5 class="font-primary">Orar</h5>
                         <span>
-                          <div>Luni – Vineri</div>
-                          <div>09AM – 19PM</div>
+                          <div class="font-primary">Luni – Vineri</div>
+                          <div class="font-primary">09AM – 19PM</div>
                         </span>
                       </div>
                     </div>
@@ -220,10 +219,10 @@
         ">
       <div class="container">
         <div class="tt-newsletter col-sm-7">
-          <h2 class="text-uppercase">Aboneaza-te la noutati</h2>
+          <h2 class="text-uppercase">Abonează-te la newsletter</h2>
         </div>
         <div class="block-content col-sm-5">
-          <form method="post" action="contact-us.html">
+          <form action="https://formsubmit.co/contact@houseofrpo.ro" method="POST">
             <div class="input-group">
               <input type="email" name="email" value="" placeholder="Email ..." required="" class="form-control" />
               <span class="input-group-btn">
@@ -274,10 +273,10 @@
                 <a href="../">Acasă</a>
               </li>
               <li>
-                <a href=".">Despre</a>
+                <a href="../despre">Despre</a>
               </li>
               <li>
-                <a href="../contact/">Contact</a>
+                <a href=".">Contact</a>
               </li>
             </ul>
           </div>
@@ -314,4 +313,3 @@
 </body>
 
 </html>
-

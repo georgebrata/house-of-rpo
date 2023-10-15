@@ -1,8 +1,7 @@
 {
-  "name": "victoria",
+  "name": "house-of-rpo",
   "version": "1.0.0",
-  "description": "install sass",
-  "main": "index.js",
+  "description": "house-of-rpo landing page",
   "dependencies": {
     "node-sass": "^4.12.0",
     "popper.js": "^1.15.0",
@@ -13,6 +12,6 @@
   "scripts": {
     "compile:sass": "node-sass scss/styles.scss css/styles.css -w"
   },
-  "author": "Templatetrip",
-  "license": "ISC"
+  "author": "George Brata",
+  "license": "MIT"
 }

@@ -259,7 +259,7 @@
             .products .product-layouts .product-thumb .thumb-description .caption .product-title {
               margin: 5px 0; } }
           .products .product-layouts .product-thumb .thumb-description .caption .product-title a {
-            font: 400 18px/20px Playfair Display, Helvetica, sans-serif;
+            font: 400 18px/20px 'Bebas Neue', sans-serif;
             color: #000;
             text-decoration: none;
             white-space: nowrap; }
@@ -405,7 +405,7 @@
     .product_view .modal-dialog .modal-content .modal-body .product_content {
       text-align: left; } }
   .product_view .modal-dialog .modal-content .modal-body .product_content .product-title {
-    font: 400 18px/20px Playfair Display, Helvetica, sans-serif;
+    font: 400 18px/20px 'Bebas Neue', sans-serif;
     border-bottom: 1px solid #e5e5e5;
     padding: 0 0 15px;
     margin: 0 0 15px; }
@@ -777,11 +777,9 @@
           transition-property: transform;
           transition-timing-function: ease-out; }
     #ttcmssubbanner .container .ttbanner .ttbanner-inner {
-      bottom: 20%;
-      position: absolute;
-      right: 15px;
-      top: auto;
-      width: 70%;
+      width: 100%;
+      height: 100%;
+      margin-bottom: 3rem;
       -webkit-transition: all 0.5s ease;
       -moz-transition: all 0.5s ease;
       -ms-transition: all 0.5s ease;
@@ -812,7 +810,7 @@
           #ttcmssubbanner .container .ttbanner .ttbanner-inner .ttbanner-desc {
             padding: 12px; } }
         #ttcmssubbanner .container .ttbanner .ttbanner-inner .ttbanner-desc .title {
-          font: 400 30px/40px Playfair Display, Helvetica, sans-serif;
+          font: 400 30px/40px 'Bebas Neue', sans-serif;
           color: #000;
           float: left;
           width: 100%; }
@@ -825,7 +823,7 @@
               font-size: 18px;
               line-height: 22px; } }
         #ttcmssubbanner .container .ttbanner .ttbanner-inner .ttbanner-desc .subtitle {
-          font: 400 18px/20px Playfair Display, Helvetica, sans-serif;
+          font: 400 18px/20px;
           float: left;
           width: 100%; }
           @media (max-width: 991px) {
@@ -1075,7 +1073,7 @@
               padding: 15px;
               position: static; } }
           #ttsmartblog .container .smartblog-content .ttblog .item .blog-content-wrap .blog_inner .blog-title {
-            font: 400 20px/24px Playfair Display, Helvetica, sans-serif;
+            font: 400 20px/24px 'Bebas Neue', sans-serif;
             letter-spacing: 0.8px;
             float: left;
             width: 100%;
@@ -1172,7 +1170,7 @@
         #ttcmsbanner .ttbanner .ttbanner-inner .ttbanner-desc {
           padding: 10px; } }
       #ttcmsbanner .ttbanner .ttbanner-inner .ttbanner-desc .ttbanner-heading {
-        font: 600 50px/60px "Playfair Display", sans-serif;
+        font: 600 50px/60px 'Bebas Neue', sans-serif;
         color: #000; }
         @media (max-width: 1600px) {
           #ttcmsbanner .ttbanner .ttbanner-inner .ttbanner-desc .ttbanner-heading {
@@ -1188,7 +1186,7 @@
             font-size: 24px;
             line-height: 35px; } }
       #ttcmsbanner .ttbanner .ttbanner-inner .ttbanner-desc .title {
-        font: 400 36px/40px Playfair Display, Helvetica, sans-serif;
+        font: 400 36px/40px 'Bebas Neue', sans-serif;
         letter-spacing: 5px;
         color: #000;
         position: relative; }
@@ -1357,7 +1355,7 @@
           text-align: center;
           margin: 0 0 10px; } }
       .block-newsletter .parallax .tt-newsletter h2 {
-        font: 400 22px/45px Playfair Display, Helvetica, sans-serif;
+        font: 400 22px/45px 'Bebas Neue', sans-serif;
         color: #fff;
         margin: 0;
         padding: 0 0 0 30px;
@@ -1473,11 +1471,12 @@
         width: 100%; } }
     .page-footer .footer-column li a {
       font: 400 13px/28px Poppins, Helvetica, sans-serif;
-      color: #aaaaaa;
+      color: #fff;
       text-decoration: none;
       text-transform: capitalize; }
       .page-footer .footer-column li a:hover {
-        color: #fff; }
+        color: #fff; 
+        text-decoration: underline !important; }
     .page-footer .footer-column li .email a {
       text-transform: none; }
     .page-footer .footer-column ul {
@@ -1629,13 +1628,6 @@
           float: none;
           display: inline-block;
           vertical-align: top; } }
-  .page-footer.footer-default .footer-column {
-    flex: 0 0 20%;
-    max-width: 20%; }
-    @media (max-width: 991px) {
-      .page-footer.footer-default .footer-column {
-        flex: 0 0 100%;
-        max-width: 100%; } }
 
 #cart-pop .modal-dialog {
   max-width: 1140px; }
@@ -1663,7 +1655,7 @@
         #cart-pop .modal-dialog .modal-content .modal-body .divide-right .product-img {
           margin: 0 0 15px; } }
     #cart-pop .modal-dialog .modal-content .modal-body .product-title {
-      font: 400 18px/20px Playfair Display, Helvetica, sans-serif;
+      font: 400 18px/20px 'Bebas Neue', sans-serif;
       margin: 0 0 15px; }
     #cart-pop .modal-dialog .modal-content .modal-body .rating {
       margin: 0 0 5px; }
@@ -1753,14 +1745,14 @@
 
 .contact-address .contact-inner {
   background: #f5f5f5;
-  padding: 50px 30px; }
+  padding: 42px 30px; }
   @media (max-width: 991px) {
     .contact-address .contact-inner {
       padding: 15px; } }
   .contact-address .contact-inner h4 {
     margin: 0 0 30px; }
   .contact-address .contact-inner .contact-information {
-    margin: 0 0 50px; }
+    margin: 0 0 0px; }
     .contact-address .contact-inner .contact-information p {
       font-size: 14px; }
     .contact-address .contact-inner .contact-information .contact-wrapper .contact-list {
@@ -1988,7 +1980,7 @@ input[type='radio'] {
 
 .title a {
   color: #fff;
-  font-family: Playfair Display, Helvetica, sans-serif;
+  font-family: 'Bebas Neue', sans-serif;
   font-size: 18px;
   float: left;
   width: 100%;
@@ -2068,7 +2060,7 @@ a:hover {
   color: #000; }
 
 #about-us .main-content #about-main-1 .col-right .desc {
-  font: 400 22px/30px Playfair Display, Helvetica, sans-serif;
+  font: 400 22px/30px 'Bebas Neue', sans-serif;
   color: #000; }
 
 #about-us .main-content #about-main-1 .col-right .sub-desc {
@@ -2079,7 +2071,7 @@ a:hover {
     padding: 20px 40px; } }
 
 #about-us .main-content #about-main-2 .col-right .title {
-  font: 700 32px/40px Playfair Display, Helvetica, sans-serif;
+  font: 700 32px/40px 'Bebas Neue', sans-serif;
   color: #000; }
   @media (max-width: 1400px) {
     #about-us .main-content #about-main-2 .col-right .title {
@@ -2581,7 +2573,7 @@ nav .breadcrumb {
             .main-content .sidebar .left-sidebar #sidebar-product .sale .product-layouts .product-thumb .thumb-description .caption .product-title, .main-content .sidebar .left-sidebar-canvas #sidebar-product .sale .product-layouts .product-thumb .thumb-description .caption .product-title, .main-content .sidebar-canvas .left-sidebar #sidebar-product .sale .product-layouts .product-thumb .thumb-description .caption .product-title, .main-content .sidebar-canvas .left-sidebar-canvas #sidebar-product .sale .product-layouts .product-thumb .thumb-description .caption .product-title, .main-content .filter-toggle .left-sidebar #sidebar-product .sale .product-layouts .product-thumb .thumb-description .caption .product-title, .main-content .filter-toggle .left-sidebar-canvas #sidebar-product .sale .product-layouts .product-thumb .thumb-description .caption .product-title {
               margin: 0; } }
           .main-content .sidebar .left-sidebar #sidebar-product .sale .product-layouts .product-thumb .thumb-description .caption .product-title a, .main-content .sidebar .left-sidebar-canvas #sidebar-product .sale .product-layouts .product-thumb .thumb-description .caption .product-title a, .main-content .sidebar-canvas .left-sidebar #sidebar-product .sale .product-layouts .product-thumb .thumb-description .caption .product-title a, .main-content .sidebar-canvas .left-sidebar-canvas #sidebar-product .sale .product-layouts .product-thumb .thumb-description .caption .product-title a, .main-content .filter-toggle .left-sidebar #sidebar-product .sale .product-layouts .product-thumb .thumb-description .caption .product-title a, .main-content .filter-toggle .left-sidebar-canvas #sidebar-product .sale .product-layouts .product-thumb .thumb-description .caption .product-title a {
-            font: 500 16px/18px Playfair Display, Helvetica, sans-serif;
+            font: 500 16px/18px 'Bebas Neue', sans-serif;
             color: #000; }
             @media (max-width: 1200px) {
               .main-content .sidebar .left-sidebar #sidebar-product .sale .product-layouts .product-thumb .thumb-description .caption .product-title a, .main-content .sidebar .left-sidebar-canvas #sidebar-product .sale .product-layouts .product-thumb .thumb-description .caption .product-title a, .main-content .sidebar-canvas .left-sidebar #sidebar-product .sale .product-layouts .product-thumb .thumb-description .caption .product-title a, .main-content .sidebar-canvas .left-sidebar-canvas #sidebar-product .sale .product-layouts .product-thumb .thumb-description .caption .product-title a, .main-content .filter-toggle .left-sidebar #sidebar-product .sale .product-layouts .product-thumb .thumb-description .caption .product-title a, .main-content .filter-toggle .left-sidebar-canvas #sidebar-product .sale .product-layouts .product-thumb .thumb-description .caption .product-title a {
@@ -3379,7 +3371,7 @@ nav .breadcrumb {
             .main-content .sidebar .left-sidebar #sidebar-product .sale .product-layouts .product-thumb .thumb-description .caption .product-title, .main-content .sidebar .left-sidebar-canvas #sidebar-product .sale .product-layouts .product-thumb .thumb-description .caption .product-title, .main-content .sidebar-canvas .left-sidebar #sidebar-product .sale .product-layouts .product-thumb .thumb-description .caption .product-title, .main-content .sidebar-canvas .left-sidebar-canvas #sidebar-product .sale .product-layouts .product-thumb .thumb-description .caption .product-title, .main-content .filter-toggle .left-sidebar #sidebar-product .sale .product-layouts .product-thumb .thumb-description .caption .product-title, .main-content .filter-toggle .left-sidebar-canvas #sidebar-product .sale .product-layouts .product-thumb .thumb-description .caption .product-title {
               margin: 0; } }
           .main-content .sidebar .left-sidebar #sidebar-product .sale .product-layouts .product-thumb .thumb-description .caption .product-title a, .main-content .sidebar .left-sidebar-canvas #sidebar-product .sale .product-layouts .product-thumb .thumb-description .caption .product-title a, .main-content .sidebar-canvas .left-sidebar #sidebar-product .sale .product-layouts .product-thumb .thumb-description .caption .product-title a, .main-content .sidebar-canvas .left-sidebar-canvas #sidebar-product .sale .product-layouts .product-thumb .thumb-description .caption .product-title a, .main-content .filter-toggle .left-sidebar #sidebar-product .sale .product-layouts .product-thumb .thumb-description .caption .product-title a, .main-content .filter-toggle .left-sidebar-canvas #sidebar-product .sale .product-layouts .product-thumb .thumb-description .caption .product-title a {
-            font: 500 16px/18px Playfair Display, Helvetica, sans-serif;
+            font: 500 16px/18px 'Bebas Neue', sans-serif;
             color: #000; }
             @media (max-width: 1200px) {
               .main-content .sidebar .left-sidebar #sidebar-product .sale .product-layouts .product-thumb .thumb-description .caption .product-title a, .main-content .sidebar .left-sidebar-canvas #sidebar-product .sale .product-layouts .product-thumb .thumb-description .caption .product-title a, .main-content .sidebar-canvas .left-sidebar #sidebar-product .sale .product-layouts .product-thumb .thumb-description .caption .product-title a, .main-content .sidebar-canvas .left-sidebar-canvas #sidebar-product .sale .product-layouts .product-thumb .thumb-description .caption .product-title a, .main-content .filter-toggle .left-sidebar #sidebar-product .sale .product-layouts .product-thumb .thumb-description .caption .product-title a, .main-content .filter-toggle .left-sidebar-canvas #sidebar-product .sale .product-layouts .product-thumb .thumb-description .caption .product-title a {
@@ -3806,7 +3798,7 @@ nav .breadcrumb {
     padding: 0 0 10px;
     margin: 0 0 15px; }
     .product-deatils-section .right-columm .product-information .product-title a {
-      font: 400 18px/20px Playfair Display, Helvetica, sans-serif;
+      font: 400 18px/20px 'Bebas Neue', sans-serif;
       color: #000;
       text-decoration: none; }
   .product-deatils-section .right-columm .product-information .description {
@@ -4098,7 +4090,7 @@ nav .breadcrumb {
         .cart-area .cart-wrapper .table-responsive .product-table tbody .table-image a img {
           width: auto; } }
     .cart-area .cart-wrapper .table-responsive .product-table tbody .table-p-name a {
-      font: 400 18px/20px Playfair Display, Helvetica, sans-serif;
+      font: 400 18px/20px 'Bebas Neue', sans-serif;
       color: #666; }
       @media (max-width: 575px) {
         .cart-area .cart-wrapper .table-responsive .product-table tbody .table-p-name a {
@@ -4154,7 +4146,7 @@ nav .breadcrumb {
     .cart-area .table-total-wrapper .table-total-content {
       padding: 20px; } }
   .cart-area .table-total-wrapper .table-total-content h2 {
-    font: 700 22px/20px Playfair Display, Helvetica, sans-serif;
+    font: 700 22px/20px 'Bebas Neue', sans-serif;
     margin: 0 0 30px;
     border-bottom: 1px solid #e5e5e5; }
   .cart-area .table-total-wrapper .table-total-content .table-total-amount .single-total-content {
@@ -4260,7 +4252,7 @@ nav .breadcrumb {
       .blog-column .ttblog .blog-content-wrap .blog_inner {
         padding: 15px; } }
     .blog-column .ttblog .blog-content-wrap .blog_inner .blog-title {
-      font: 400 20px/24px Playfair Display, Helvetica, sans-serif;
+      font: 400 20px/24px 'Bebas Neue', sans-serif;
       margin: 0 0 30px; }
       .blog-column .ttblog .blog-content-wrap .blog_inner .blog-title:hover {
         color: #000; }
@@ -4294,7 +4286,7 @@ nav .breadcrumb {
       .blog-detail .ttblog .blog-content-wrap .blog_inner {
         padding: 30px 0 0; } }
     .blog-detail .ttblog .blog-content-wrap .blog_inner .blog-title {
-      font: 400 20px/24px Playfair Display, Helvetica, sans-serif;
+      font: 400 20px/24px 'Bebas Neue', sans-serif;
       margin: 0 0 30px; }
       .blog-detail .ttblog .blog-content-wrap .blog_inner .blog-title:hover {
         color: #000; }
@@ -4332,7 +4324,7 @@ nav .breadcrumb {
       .blog-list .ttblog .blog-content-wrap .blog_inner {
         padding: 20px 0 0; } }
     .blog-list .ttblog .blog-content-wrap .blog_inner .blog-title {
-      font: 400 20px/24px Playfair Display, Helvetica, sans-serif;
+      font: 400 20px/24px 'Bebas Neue', sans-serif;
       margin: 0 0 15px; }
     .blog-list .ttblog .blog-content-wrap .blog_inner .post-info {
       margin: 0 0 15px; }
@@ -4785,9 +4777,6 @@ img {
   max-width: 40% !important;
   margin: 0 auto; }
 
-.ttbanner-img img {
-  width: 50%; }
-
 body {
   letter-spacing: 1px;
   line-height: 20px;
@@ -4907,6 +4896,9 @@ body {
       -moz-transition: transform 400ms ease-in-out 0s;
       -o-transition: transform 400ms ease-in-out 0s;
       -ms-transition: transform 400ms ease-in-out 0s; }
+    .header-area .ttheader-phone a::before {
+      content: '\e0be'; }
+      
   .header-area .ttheader-mail:hover a:before {
     transform: rotateY(180deg);
     -webkit-transform: rotateY(180deg);
@@ -4996,7 +4988,7 @@ body {
         position: static; }
       .navbar .navbar-nav .nav-item .nav-link {
         color: #f6f7f9;
-        font: 600 16px/18px Playfair Display, Helvetica, sans-serif;
+        font: 600 16px/18px 'Bebas Neue', sans-serif;
         padding: 23px 20px !important; }
         .navbar .navbar-nav .nav-item .nav-link:hover {
           color: #888889; }
@@ -5401,7 +5393,7 @@ body {
 
 .navbar-expand-md .navbar-nav .nav-link {
   padding: 22px 30px !important;
-  font: 600 16px/18px Playfair Display, Helvetica, sans-serif;
+  font: 600 16px/18px 'Bebas Neue', sans-serif;
   color: #2e9cca !important; }
   @media (max-width: 991px) {
     .navbar-expand-md .navbar-nav .nav-link {
@@ -5467,7 +5459,7 @@ body {
       -khtml-opacity: 0;
       -webkit-opacity: 0; }
     .slider-wrapper .slider .owl-item .slider-content-wrap .slider-title {
-      font: 400 50px/60px Playfair Display, Helvetica, sans-serif;
+      font: 400 50px/60px 'Bebas Neue', sans-serif;
       letter-spacing: 2px;
       color: #2e9cca;
       font-style: italic; }
@@ -5652,7 +5644,7 @@ body {
 
 /*---product css ---*/
 .tt-title {
-  font: 600 40px/42px Playfair Display, Helvetica, sans-serif;
+  font: 600 40px/42px 'Bebas Neue', sans-serif;
   padding: 0 0 20px;
   margin: 0 0 30px;
   position: relative;
@@ -6310,7 +6302,7 @@ body {
         #ttcmsfooterservice .ttservice .service-content {
           margin: 0; } }
       #ttcmsfooterservice .ttservice .service-content .service-title {
-        font: 700 18px/22px Playfair Display, Helvetica, sans-serif;
+        font: 700 18px/22px 'Bebas Neue', sans-serif;
         color: #f6f7f9;
         margin: 0 0 5px 0; }
       #ttcmsfooterservice .ttservice .service-content .service-desc {
@@ -6338,7 +6330,7 @@ body {
       display: block !important;
       text-align: center; } }
   .compare-wrapper .compare-inner .compare-left h2 {
-    font-family: Playfair Display, Helvetica, sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
     text-transform: capitalize;
     font-size: 26px;
     color: #1a1a1a; }
@@ -6428,7 +6420,7 @@ body {
     #category-products .ttproduct-cat-item .tt_cat_content .description {
       padding: 22px 50px; } }
   #category-products .ttproduct-cat-item .tt_cat_content .description .title {
-    font: 600 23px/28px Playfair Display, Helvetica, sans-serif;
+    font: 600 23px/28px 'Bebas Neue', sans-serif;
     color: #1a1a1a; }
   #category-products .ttproduct-cat-item .tt_cat_content .description .desc {
     font: 400 14px/18px Poppins, Helvetica, sans-serif; }
@@ -6456,7 +6448,7 @@ body {
       padding: 0 15px;
       margin: 20px 0 0; } }
   #ttcmsaboutus .ttcmsaboutus .ttcmsabout-desc .ttabout-title {
-    font: 400 32px/34px Playfair Display, Helvetica, sans-serif;
+    font: 400 32px/34px 'Bebas Neue', sans-serif;
     color: #1a1a1a;
     padding: 0 0 15px; }
     @media (max-width: 543px) {
@@ -6504,14 +6496,14 @@ body {
     #ttcmsparallax .parallax .content-wrap {
       padding: 50px 20px; } }
   #ttcmsparallax .parallax .content-wrap .description {
-    font: italic 400 50px/52px Playfair Display, Helvetica, sans-serif;
+    font: italic 400 50px/52px 'Bebas Neue', sans-serif;
     color: #1a1a1a; }
     @media (max-width: 543px) {
       #ttcmsparallax .parallax .content-wrap .description {
         font-size: 30px;
         line-height: 32px; } }
   #ttcmsparallax .parallax .content-wrap .title {
-    font: 700 60px/62px Playfair Display, Helvetica, sans-serif;
+    font: 700 60px/62px 'Bebas Neue', sans-serif;
     color: #1a1a1a; }
     @media (max-width: 543px) {
       #ttcmsparallax .parallax .content-wrap .title {
@@ -6553,7 +6545,7 @@ body {
     overflow: visible;
     white-space: normal; }
     #ttlookbook .ttlookbook-content .product-layouts .product-thumb .thumb-description .caption .product-title a {
-      font: italic 400 30px/32px Playfair Display, Helvetica, sans-serif;
+      font: italic 400 30px/32px 'Bebas Neue', sans-serif;
       white-space: normal; }
       @media (max-width: 767px) {
         #ttlookbook .ttlookbook-content .product-layouts .product-thumb .thumb-description .caption .product-title a {
@@ -7265,4 +7257,4 @@ body {
     margin: 0; } }
 
 .ttbanner-heading {
-  font-family: "Playfair Display", sans-serif !important; }
+  font-family: 'Bebas Neue', sans-serif !important; }

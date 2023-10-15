@@ -11,13 +11,21 @@ html {
     --font-family-2: 'Oswald', sans-serif;
 }
 
+.font-white {
+    color: white;
+}
+
+.font-primary {
+    color: var(--primary-1);
+}
+
 .primary-link {
     color: var(--primary-1);
 }
 
 .primary-link:hover {
     color: var(--primary-2);
-    text-decoration: underline;
+    text-decoration: underline !important;
 }
 
 .dark-link {
@@ -28,3 +36,20 @@ html {
     color: var(--primary-3);
     text-decoration: underline !important;
 }
+
+.mt-10 {
+    margin-top: 10rem;
+}
+
+.px-3 {
+    padding: 0 3rem;
+}
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Bebas Neue', sans-serif !important;
+}
+
