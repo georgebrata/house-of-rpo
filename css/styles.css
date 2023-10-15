@@ -1864,7 +1864,9 @@ a {
     color: #888889; }
 
 .index .page-footer {
-  margin: 0; }
+  margin: 0; 
+  padding: 1rem;
+}
 
 button:focus {
   outline: none !important; }
@@ -4803,9 +4805,6 @@ body {
   float: left;
   width: 100%;
   background-color: #25274d; }
-  @media (min-width: 992px) {
-    .header-area.header-default {
-      min-height: 233px; } }
   .header-area .header-main-sticky.fixed-header {
     animation: 1s ease 0s normal both 1 running fixedmenu;
     background: #25274d;
@@ -4833,8 +4832,6 @@ body {
       right: 0;
       margin: 0 auto;
       background-color: #25274d; }
-      .header-area .header-main-sticky.fixed-header .menu .navbar .navbar-nav .nav-item .nav-link {
-        padding: 36px 20px !important; }
       .header-area .header-main-sticky.fixed-header .menu .navbar .navbar-nav .nav-item.more_menu .menu-dropdown li a {
         padding: 5px 20px !important; }
       .header-area .header-main-sticky.fixed-header .menu .container {
