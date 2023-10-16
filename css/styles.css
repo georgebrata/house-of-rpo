@@ -1858,10 +1858,10 @@
   color: red; }
 
 a {
-  text-decoration: none !important;
   cursor: pointer; }
   a:hover, a:focus {
-    color: #888889; }
+    color: white;
+    text-decoration: underline; }
 
 .index .page-footer {
   margin: 0; 
@@ -2021,7 +2021,8 @@ a {
   color: #fff; }
 
 a:hover {
-  color: #888889; }
+  color: white;
+text-decoration: underline; }
 
 .nav-style1 .owl-nav button {
   position: absolute;
@@ -4893,7 +4894,10 @@ body {
       -o-transition: transform 400ms ease-in-out 0s;
       -ms-transition: transform 400ms ease-in-out 0s; }
     .header-area .ttheader-phone a::before {
-      content: '\e0be'; }
+      content: '\e0b0'; }
+    .menu-icon {
+      font-size: 50px;
+    }
       
   .header-area .ttheader-mail:hover a:before {
     transform: rotateY(180deg);
@@ -4979,7 +4983,10 @@ body {
       .navbar .navbar-nav .navbar-nav {
         padding: 10px 0; } }
     .navbar .navbar-nav .nav-item {
-      position: relative; }
+      position: relative; 
+      font-size: 1.2rem;
+      line-height: 2rem;
+    }
       .navbar .navbar-nav .nav-item.mega-dropdown {
         position: static; }
       .navbar .navbar-nav .nav-item .nav-link {
