@@ -642,7 +642,16 @@
 #ttcmstestimonial {
   float: left;
   width: 100%;
-  background: #999999 url(../img/banner/parellex-bg.jpg); }
+  background:
+  /* top, transparent black, faked with gradient */ 
+  linear-gradient(
+    rgba(0, 0, 0, 0.7), 
+    rgba(0, 0, 0, 0.7)
+  ),
+  /* bottom, image */
+  url(../img/banner/leather-jackets-desktop-banner.webp);
+  background-size: cover;
+}
   @media (max-width: 543px) {
     #ttcmstestimonial {
       margin: 15px 0; } }

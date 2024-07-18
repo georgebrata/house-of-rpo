@@ -271,29 +271,17 @@ $(document).ready(function() {
 	});
 	/*---------------- End currency ---------------- */
 	/*--- start slider js ----*/					   
-	$('.slider-for').owlCarousel({
+	$('#main-slider').owlCarousel({
 		items : 1, //1 items above 1000px browser width
 		nav : true,
 		navText: [
 		"<i class='material-icons'>&#xE5CB;</i>",
 		"<i class='material-icons'>&#xE5CC;</i>"
 		],
-		dots : true,
+		dots: true,
 		loop: true,
-		responsive: {
-			1279: {
-				items: 1
-			},
-			992: {
-				items: 1
-			},
-			481: {
-				items: 1
-			},
-			100: {
-				items: 1
-			}
-		}
+		autoplay: true,
+		autoplayTimeout: 2000,
 	});
 	
 	$('#ttcmsservice .ttserviceblock').owlCarousel({
@@ -426,25 +414,12 @@ $(document).ready(function() {
 	/*--- start testimonial js ----*/					   
 	$('.index .tttestimonial').owlCarousel({
 		items : 1, //1 items above 1000px browser width
-		nav : false,
-		dots : true,
+		nav: false,
+		dots: true,
 		loop: true,
-		autoplay:true,	
-		autoplayHoverPause:true,
-		responsive: {
-			1279: {
-				items: 1
-			},
-			992: {
-				items: 1
-			},
-			481: {
-				items: 1
-			},
-			100: {
-				items: 1
-			}
-		}
+		autoplay: true,	
+		autoplayTimeout:3000, 
+		autoplayHoverPause:true
 	});
 	
 	
@@ -640,13 +615,16 @@ $(document).ready(function() {
 		items : 6, //1 items above 1000px browser width
 		nav : true,
 		navText: [
-		"<i class='material-icons'>&#xE5CB;</i>",
-		"<i class='material-icons'>&#xE5CC;</i>"
+			"<i class='material-icons'>&#xE5CB;</i>",
+			"<i class='material-icons'>&#xE5CC;</i>"
 		],
 		dots : false,
 		loop: true,
-		autoplayHoverPause:true,
-		autoplay:true,	
+		autoplay: true,
+		slideTransition: 'linear',
+		autoplayTimeout: 1000,
+		autoplaySpeed: 1000,
+		autoplayHoverPause: true,
 		responsive: {
 			1279: {
 				items: 6
@@ -722,7 +700,7 @@ $(document).ready(function() {
 	});
 	
 	$('.extended.small-image-list .nav-add').owlCarousel({
-		items : 3, //1 items above 1000px browser width
+		items : 2, //1 items above 1000px browser width
 		nav : true,
 		dots : false,
 		loop: true,
@@ -770,9 +748,7 @@ $(document).ready(function() {
 			
 	/* ------------ End TemplateTrip Parallax JS ------------ */  
 	    responsivemenu();
-		
-		
-			initialize_owl($('#owl1'));
+		initialize_owl($('#owl1'));
 	
 		$('a[href="#ttfeatured-main"]').on('shown.bs.tab', function () {
 			initialize_owl($('#owl1'));
@@ -965,7 +941,7 @@ function responseMessage(msg) {
 }
 /*****************start animation script*******************/
 function hb_animated_contents() {
-$(".hb-animate-element:in-viewport").each(function (i) {
+$(".hb-animate-element").each(function (i) {
 var $this = $(this);
 if (!$this.hasClass('hb-in-viewport')) {
 setTimeout(function () {
@@ -992,13 +968,13 @@ function initialize_owl(el) {
 		"<i class='material-icons'>&#xE5CB;</i>",
 		"<i class='material-icons'>&#xE5CC;</i>"
 		],
-		dots : false,
+		dots: false,
 		loop: true,
-		autoplay:true,	
+		autoplay: false,	
 		autoplayHoverPause:true,
 		responsive: {
 			1279: {
-				items: 4
+				items: 3
 			},
 			992: {
 				items: 3
@@ -1007,7 +983,7 @@ function initialize_owl(el) {
 				items: 3
 			},
 			320: {
-				items: 2
+				items: 1
 			}
 		}
     });
