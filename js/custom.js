@@ -751,19 +751,19 @@ $(document).ready(function() {
 		initialize_owl($('#owl1'));
 	
 		$('a[href="#ttfeatured-main"]').on('shown.bs.tab', function () {
-			initialize_owl($('#owl1'));
+			initialize_owl($('#owl1'), 3);
 		}).on('hide.bs.tab', function () {
 			destroy_owl($('#owl1'));
 		});
 	
 		$('a[href="#ttnew-main"]').on('shown.bs.tab', function () {
-			initialize_owl($('#owl2'));
+			initialize_owl($('#owl2'), 3);
 		}).on('hide.bs.tab', function () {
 			destroy_owl($('#owl2'));
 		});
 	
 		$('a[href="#ttbestseller-main"]').on('shown.bs.tab', function () {
-			initialize_owl($('#owl3'));
+			initialize_owl($('#owl3'), 4);
 		}).on('hide.bs.tab', function () {
 			destroy_owl($('#owl3'));
 		});
@@ -960,9 +960,9 @@ hb_animated_contents();
 
 /*****************end animation script*******************/  
 
-function initialize_owl(el) {
+function initialize_owl(el, items) {
     el.owlCarousel({
-        items : 4, //1 items above 1000px browser width
+        items : items, //1 items above 1000px browser width
 		nav : true,
 		navText: [
 		"<i class='material-icons'>&#xE5CB;</i>",
@@ -974,7 +974,7 @@ function initialize_owl(el) {
 		autoplayHoverPause:true,
 		responsive: {
 			1279: {
-				items: 3
+				items: items,
 			},
 			992: {
 				items: 3
