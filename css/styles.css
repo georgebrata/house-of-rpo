@@ -6267,17 +6267,11 @@ body {
   -ms-transition: transform 400ms ease-in-out 0s; }
 
   .contact-page .main-content {
-    padding: 0 30px;
+    padding: 0 20px;
   }
   @media (min-width: 992px) {
     .contact-page .main-content {
-      padding: 0 100px;
-    }
-  }
-
-  @media (min-width: 1260px) {
-    .contact-page .main-content {
-      padding: 0 200px;
+      padding: 0 50px;
     }
   }
 
