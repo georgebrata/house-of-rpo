@@ -1142,8 +1142,19 @@ function scrollBody() {
 	}, 1000);
 }
 
-// call the function after 5s
-setTimeout(scrollBody, 2000);
+// call the function after 5s only if the user didnt scroll
+var didScroll = false;
+$(window).scroll(function() {
+	didScroll = true;
+});
+
+setTimeout(function() {
+	if (didScroll) {
+		didScroll = false;
+	} else {
+		scrollBody();
+	}
+}, 2000);
 
 
 /*--------- Start js for left-column -------------*/
