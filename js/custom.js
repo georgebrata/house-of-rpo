@@ -281,7 +281,7 @@ $(document).ready(function() {
 		dots: true,
 		loop: true,
 		autoplay: true,
-		autoplayTimeout: 2000,
+		autoplayTimeout: 4000,
 	});
 	
 	$('#ttcmsservice .ttserviceblock').owlCarousel({
@@ -1133,6 +1133,17 @@ stickyleft();
 $(window).resize(function() {
 stickyleft();
 });
+
+// write a function to scroll the body by 1000px after 5s
+function scrollBody() {
+	$('html, body').animate({
+		//scroll percentage
+		scrollTop: $(document).height() * 0.05
+	}, 1000);
+}
+
+// call the function after 5s
+setTimeout(scrollBody, 2000);
 
 
 /*--------- Start js for left-column -------------*/
