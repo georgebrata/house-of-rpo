@@ -4356,7 +4356,10 @@ nav .breadcrumb {
     margin: 0 0 30px; } }
 
 .blog-details .post-comment-area {
-  margin: 0 0 50px; }
+  margin-top: 36px; }
+
+
+
   .blog-details .post-comment-area .single-post-comment {
     padding: 30px;
     margin: 0 0 20px;
@@ -7280,3 +7283,4 @@ body {
 
 .ttbanner-heading {
   font-family: 'Bebas Neue', sans-serif !important; }
+
